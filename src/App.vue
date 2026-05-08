@@ -15,7 +15,7 @@ const closeMenu = () => { isMenuOpen.value = false }
 
 onMounted(async () => {
   try {
-    const response = await fetch(`/data.json?t=${Date.now()}`)
+    const response = await fetch(`${import.meta.env.BASE_URL}data.json?t=${Date.now()}`)
     allData.value = await response.json()
     isLoaded.value = true
   } catch (error) {
