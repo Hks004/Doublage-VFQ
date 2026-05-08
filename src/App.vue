@@ -55,14 +55,15 @@ const selectMovie = (id) => {
   searchQuery.value = ''; showResults.value = false; router.push(`/film/${id}`)
 }
 
-// LOGIQUE CORRIGÉE : Redirige vers /acteur ou /doubleur selon le type
+// LOGIQUE CORRIGÉE : Utilise encodeURIComponent pour gérer les "/" dans les noms
 const selectPerson = (name, type) => {
   searchQuery.value = ''; 
   showResults.value = false; 
+  const encodedName = encodeURIComponent(name);
   if (type === 'actor') {
-    router.push(`/acteur/${name}`)
+    router.push(`/acteur/${encodedName}`)
   } else {
-    router.push(`/doubleur/${name}`)
+    router.push(`/doubleur/${encodedName}`)
   }
 }
 
