@@ -55,8 +55,15 @@ const selectMovie = (id) => {
   searchQuery.value = ''; showResults.value = false; router.push(`/film/${id}`)
 }
 
-const selectPerson = (name) => {
-  searchQuery.value = ''; showResults.value = false; router.push(`/doubleur/${name}`)
+// LOGIQUE CORRIGÉE : Redirige vers /acteur ou /doubleur selon le type
+const selectPerson = (name, type) => {
+  searchQuery.value = ''; 
+  showResults.value = false; 
+  if (type === 'actor') {
+    router.push(`/acteur/${name}`)
+  } else {
+    router.push(`/doubleur/${name}`)
+  }
 }
 
 provide('database', allData)
@@ -84,14 +91,14 @@ provide('isLoaded', isLoaded)
             <div v-if="showResults && (liveResults.movies.length > 0 || liveResults.vfq.length > 0 || liveResults.actors.length > 0)" class="search-dropdown">
               <div v-if="liveResults.vfq.length > 0" class="search-section">
                 <div class="section-label">Doubleurs VFQ</div>
-                <div v-for="name in liveResults.vfq" :key="'vfq-'+name" class="dropdown-item person-item" @click="selectPerson(name)">
+                <div v-for="name in liveResults.vfq" :key="'vfq-'+name" class="dropdown-item person-item" @click="selectPerson(name, 'vfq')">
                   <div class="person-icon vfq-icon">⚜</div>
                   <div class="item-info"><div class="item-title">{{ name }}</div></div>
                 </div>
               </div>
               <div v-if="liveResults.actors.length > 0" class="search-section">
                 <div class="section-label">Acteurs Originaux</div>
-                <div v-for="name in liveResults.actors" :key="'act-'+name" class="dropdown-item person-item" @click="selectPerson(name)">
+                <div v-for="name in liveResults.actors" :key="'act-'+name" class="dropdown-item person-item" @click="selectPerson(name, 'actor')">
                   <div class="person-icon">👤</div>
                   <div class="item-info"><div class="item-title">{{ name }}</div></div>
                 </div>
@@ -146,7 +153,7 @@ provide('isLoaded', isLoaded)
 </template>
 
 <style>
-/* --- TON STYLE ORIGINAL --- */
+/* --- TON STYLE ORIGINAL PRÉSERVÉ --- */
 :root {
   --primary: #2563eb;
   --bg: #0a0a0a;
@@ -173,7 +180,6 @@ body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Inter
 .links a { color: var(--text-muted); text-decoration: none; font-size: 0.85rem; font-weight: 600; transition: 0.2s; }
 .links a:hover, .links a.router-link-active { color: var(--primary); }
 
-/* --- STYLE RECHERCHE ORIGINAL --- */
 .search-dropdown { position: absolute; top: calc(100% + 10px); left: 0; width: 100%; max-height: 600px; background: #151515; border: 1px solid #333; border-radius: 8px; overflow-y: auto; z-index: 1001; }
 .search-section { padding: 10px 0; border-bottom: 1px solid #262626; }
 .section-label { padding: 5px 15px 10px; font-size: 0.7rem; font-weight: 800; color: var(--primary); text-transform: uppercase; letter-spacing: 1px; }
@@ -183,7 +189,6 @@ body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Inter
 .person-icon { width: 40px; height: 40px; background: #222; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; }
 .vfq-icon { color: var(--primary); border: 1px solid var(--primary); }
 
-/* --- FOOTER ORIGINAL --- */
 .footer { background: var(--nav-bg); border-top: 1px solid #262626; padding: 40px 20px; margin-top: 60px; }
 .footer-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
 .logo-small { text-decoration: none; color: white; font-weight: 800; font-size: 1.1rem; }
@@ -192,7 +197,6 @@ body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Inter
 .footer-nav { display: flex; gap: 20px; }
 .footer-nav a { color: var(--text-muted); text-decoration: none; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
 
-/* --- MOBILE RESPONSIVE --- */
 .hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; }
 .hamburger span { width: 22px; height: 2px; background: white; transition: 0.3s; }
 .hamburger.is-active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
