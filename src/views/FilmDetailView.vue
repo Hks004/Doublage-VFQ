@@ -132,7 +132,7 @@ const getPoster = (m) => {
 .main-poster { width: 100%; display: block; }
 .main-poster-placeholder { width: 100%; aspect-ratio: 2/3; background: #171717; display: flex; align-items: center; justify-content: center; font-size: 3rem; font-weight: 900; color: #262626; }
 
-.movie-header h1 { font-size: 3.5rem; font-weight: 900; margin: 0; text-transform: uppercase; line-height: 1; }
+.movie-header h1 { font-size: 3.5rem; font-weight: 900; margin: 0; text-transform: none; line-height: 1; }
 .sub-header { margin-top: 15px; font-size: 1.1rem; color: #888; display: flex; gap: 15px; align-items: center; }
 .separator { opacity: 0.3; }
 .release-date { font-weight: 800; color: #fff; font-size: 0.9rem; letter-spacing: 1px; }

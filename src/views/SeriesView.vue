@@ -155,12 +155,12 @@ const getPoster = (m) => {
 /* AUCUN CHANGEMENT DANS TES STYLES ORIGINAUX */
 .centered-wrapper { max-width: 1400px; margin: 0 auto; padding: 40px 20px; }
 .header-section { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 50px; border-left: 4px solid var(--primary); padding-left: 20px; }
-.title-area h1 { font-size: 3rem; font-weight: 900; margin: 0; text-transform: uppercase; color: #fff; }
+.title-area h1 { font-size: 3rem; font-weight: 900; margin: 0; text-transform: none; color: #fff; }
 .count { color: #666; font-weight: 800; font-size: 0.9rem; margin-top: 5px; }
 
 .controls { display: flex; gap: 20px; }
 .select-group { display: flex; flex-direction: column; gap: 8px; }
-.select-group label { font-size: 0.7rem; text-transform: uppercase; color: #666; font-weight: 800; letter-spacing: 1px; }
+.select-group label { font-size: 0.7rem; text-transform: none; color: #666; font-weight: 800; letter-spacing: 1px; }
 select { background: #1a1a1a; color: #fff; border: 1px solid #333; padding: 10px 15px; border-radius: 8px; min-width: 180px; outline: none; font-weight: 600; }
 
 .titles-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 30px 20px; }
@@ -180,7 +180,7 @@ select { background: #1a1a1a; color: #fff; border: 1px solid #333; padding: 10px
 
 .info { margin-top: 8px; cursor: pointer; }
 .info h3 { 
-    color: #fff; font-size: 0.8rem; font-weight: 700; margin: 0; line-height: 1.2; text-transform: uppercase;
+    color: #fff; font-size: 0.8rem; font-weight: 700; margin: 0; line-height: 1.2; text-transform: none;
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
     user-select: text; -webkit-user-select: text; transition: color 0.2s ease;
 }
@@ -193,7 +193,7 @@ select { background: #1a1a1a; color: #fff; border: 1px solid #333; padding: 10px
 .movie-card:hover .original-name { color: #ccc; }
 .movie-card:hover h3 { color: var(--primary); }
 
-.loader-scrolling { text-align: center; padding: 40px; color: #444; font-weight: 800; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 2px; }
+.loader-scrolling { text-align: center; padding: 40px; color: #444; font-weight: 800; font-size: 0.8rem; text-transform: none; letter-spacing: 2px; }
 
 /* RESPONSIVE */
 @media (max-width: 1000px) { .titles-grid { grid-template-columns: repeat(4, 1fr); gap: 20px 12px; } .title-area h1 { font-size: 2.2rem; } }

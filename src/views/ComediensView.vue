@@ -148,12 +148,12 @@ onUnmounted(() => {
   padding-left: 20px; 
 }
 
-.title-area h1 { margin: 0; font-size: 2.5rem; text-transform: uppercase; font-weight: 900; color: #fff; }
+.title-area h1 { margin: 0; font-size: 2.5rem; text-transform: none; font-weight: 900; color: #fff; }
 .count { color: #666; font-size: 0.9rem; margin: 5px 0 0 0; font-weight: 700; }
 
 .controls { display: flex; gap: 15px; }
 .select-group { display: flex; flex-direction: column; gap: 8px; }
-.select-group label { font-size: 0.65rem; text-transform: uppercase; color: #666; font-weight: 800; letter-spacing: 1px; }
+.select-group label { font-size: 0.65rem; text-transform: none; color: #666; font-weight: 800; letter-spacing: 1px; }
 
 select { 
   background: #1a1a1a; 
@@ -208,7 +208,7 @@ select:focus { border-color: var(--primary, #2563eb); }
   font-weight: 900; 
   padding: 5px 16px; 
   border-radius: 50px; 
-  text-transform: uppercase;
+  text-transform: none;
   border: 1px solid rgba(37, 99, 235, 0.2);
 }
 
@@ -224,7 +224,7 @@ select:focus { border-color: var(--primary, #2563eb); }
 }
 @keyframes spin { 100% { transform: rotate(360deg); } }
 
-.loader-scrolling { text-align: center; padding: 40px; color: #444; font-weight: 800; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 2px; }
+.loader-scrolling { text-align: center; padding: 40px; color: #444; font-weight: 800; font-size: 0.8rem; text-transform: none; letter-spacing: 2px; }
 
 @media (max-width: 600px) {
   .centered-wrapper { padding: 20px 12px; }

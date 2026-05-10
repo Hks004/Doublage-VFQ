@@ -111,7 +111,7 @@ const toggleGroup = (actor) => {
   text-decoration: none;
   font-size: 0.75rem;
   font-weight: 800;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 1px;
   transition: color 0.2s;
 }
@@ -136,7 +136,7 @@ h1 {
   font-size: 4rem;
   font-weight: 900;
   margin: 0;
-  text-transform: uppercase;
+  text-transform: none;
   line-height: 1;
   color: #fff;
 }
@@ -192,7 +192,7 @@ h1 {
   color: #fff;
   font-weight: 900;
   font-style: italic;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 1.3rem;
   letter-spacing: 1px;
 }

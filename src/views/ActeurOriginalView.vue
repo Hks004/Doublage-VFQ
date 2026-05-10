@@ -94,12 +94,12 @@ const toggleGroup = (vfq) => {
 .page { max-width: 1000px; margin: 40px auto; padding: 0 20px; color: #fff; }
 
 .nav-container { margin-bottom: 20px; }
-.back-link { color: #666; text-decoration: none; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; transition: color 0.2s; }
+.back-link { color: #666; text-decoration: none; font-size: 0.75rem; font-weight: 800; text-transform: none; letter-spacing: 1px; transition: color 0.2s; }
 .back-link:hover { color: var(--primary); }
 
 .header { margin-bottom: 50px; }
 .category-prefix { color: var(--primary); font-weight: 800; font-size: 0.75rem; letter-spacing: 2px; margin-bottom: 5px; }
-h1 { font-size: 4rem; font-weight: 900; margin: 0; text-transform: uppercase; line-height: 1; }
+h1 { font-size: 4rem; font-weight: 900; margin: 0; text-transform: none; line-height: 1; }
 .title-underline { width: 120px; height: 6px; background: var(--primary); margin-top: 10px; }
 
 .groups-container { display: flex; flex-direction: column; gap: 15px; }
@@ -119,7 +119,7 @@ h1 { font-size: 4rem; font-weight: 900; margin: 0; text-transform: uppercase; li
 
 .info { display: flex; align-items: center; gap: 15px; }
 .prefix { color: var(--primary); font-weight: 900; font-style: italic; font-size: 1.1rem; }
-.vfq-name { color: #fff; font-weight: 900; font-style: italic; text-transform: uppercase; font-size: 1.3rem; letter-spacing: 1px; }
+.vfq-name { color: #fff; font-weight: 900; font-style: italic; text-transform: none; font-size: 1.3rem; letter-spacing: 1px; }
 
 .right-section { display: flex; align-items: center; gap: 20px; }
 .role-count { background: rgba(37, 99, 235, 0.15); color: var(--primary); padding: 4px 15px; border-radius: 20px; font-size: 0.75rem; font-weight: 800; white-space: nowrap; }
