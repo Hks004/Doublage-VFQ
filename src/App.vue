@@ -52,13 +52,14 @@ const liveResults = computed(() => {
 })
 
 const selectMovie = (id) => {
-  searchQuery.value = ''; showResults.value = false; router.push(`/film/${id}`)
+  showResults.value = false; // Ferme la liste
+  searchQuery.value = ''; 
+  router.push(`/film/${id}`)
 }
 
-// LOGIQUE CORRIGÉE : Utilise encodeURIComponent pour gérer les "/" dans les noms
 const selectPerson = (name, type) => {
+  showResults.value = false; // Ferme la liste
   searchQuery.value = ''; 
-  showResults.value = false; 
   const encodedName = encodeURIComponent(name);
   if (type === 'actor') {
     router.push(`/acteur/${encodedName}`)
@@ -72,7 +73,7 @@ provide('isLoaded', isLoaded)
 </script>
 
 <template>
-  <div id="layout" @click="showResults = false">
+  <div id="layout" @click.self="showResults = false">
     <nav class="nav">
       <div class="nav-content">
         <div class="nav-header">
@@ -85,7 +86,13 @@ provide('isLoaded', isLoaded)
         <div class="search-wrapper" @click.stop>
           <div class="search-bar">
             <span class="search-icon">🔍</span>
-            <input v-model="searchQuery" type="text" placeholder="Film, série, acteur ou doubleur..." @focus="showResults = true">
+            <input 
+              v-model="searchQuery" 
+              type="text" 
+              placeholder="Film, série, acteur ou doubleur..." 
+              @focus="showResults = true"
+              @input="showResults = true"
+            >
           </div>
 
           <transition name="fade">
