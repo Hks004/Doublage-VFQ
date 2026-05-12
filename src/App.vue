@@ -1,11 +1,12 @@
 <script setup>
-import { ref, onMounted, provide, computed } from 'vue'
+import { ref, onMounted, onUnmounted, provide, computed } from 'vue'
 import { useRouter } from 'vue-router'
 
 const allData = ref([])
 const isLoaded = ref(false)
 const searchQuery = ref('')
 const showResults = ref(false)
+const searchWrapper = ref(null) // Référence pour détecter le clic extérieur
 const router = useRouter()
 
 // --- LOGIQUE MENU ---
@@ -13,7 +14,18 @@ const isMenuOpen = ref(false)
 const toggleMenu = () => { isMenuOpen.value = !isMenuOpen.value }
 const closeMenu = () => { isMenuOpen.value = false }
 
+// --- LOGIQUE CLIC EXTÉRIEUR ---
+const handleClickOutside = (event) => {
+  // Si la liste est ouverte et que le clic tape en dehors du wrapper de recherche
+  if (showResults.value && searchWrapper.value && !searchWrapper.value.contains(event.target)) {
+    showResults.value = false
+  }
+}
+
 onMounted(async () => {
+  // Ajout de l'écouteur global pour fermer la barre
+  window.addEventListener('click', handleClickOutside)
+  
   try {
     const response = await fetch(`${import.meta.env.BASE_URL}data.json?t=${Date.now()}`)
     allData.value = await response.json()
@@ -21,6 +33,11 @@ onMounted(async () => {
   } catch (error) {
     console.error("Erreur:", error)
   }
+})
+
+onUnmounted(() => {
+  // Nettoyage de l'écouteur quand on quitte le composant
+  window.removeEventListener('click', handleClickOutside)
 })
 
 const getPosterUrl = (posterPath) => {
@@ -52,14 +69,14 @@ const liveResults = computed(() => {
 })
 
 const selectMovie = (id) => {
-  showResults.value = false; // Ferme la liste
-  searchQuery.value = ''; 
+  showResults.value = false
+  searchQuery.value = '' 
   router.push(`/film/${id}`)
 }
 
 const selectPerson = (name, type) => {
-  showResults.value = false; // Ferme la liste
-  searchQuery.value = ''; 
+  showResults.value = false
+  searchQuery.value = '' 
   const encodedName = encodeURIComponent(name);
   if (type === 'actor') {
     router.push(`/acteur/${encodedName}`)
@@ -73,7 +90,7 @@ provide('isLoaded', isLoaded)
 </script>
 
 <template>
-  <div id="layout" @click.self="showResults = false">
+  <div id="layout">
     <nav class="nav">
       <div class="nav-content">
         <div class="nav-header">
@@ -83,7 +100,7 @@ provide('isLoaded', isLoaded)
           </button>
         </div>
 
-        <div class="search-wrapper" @click.stop>
+        <div class="search-wrapper" ref="searchWrapper">
           <div class="search-bar">
             <span class="search-icon">🔍</span>
             <input 
@@ -161,7 +178,7 @@ provide('isLoaded', isLoaded)
 </template>
 
 <style>
-/* --- TON STYLE ORIGINAL PRÉSERVÉ --- */
+/* --- STYLE ORIGINAL PRÉSERVÉ --- */
 :root {
   --primary: #2563eb;
   --bg: #0a0a0a;
