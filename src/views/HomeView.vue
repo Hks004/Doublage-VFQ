@@ -29,12 +29,16 @@ const topComediens = computed(() => {
 })
 
 const navigateSafely = (e, route) => {
+  // Empêche la navigation au clic gauche si du texte est sélectionné
   const selection = window.getSelection().toString()
   if (selection.length > 0) {
     e.preventDefault()
     return
   }
-  router.push(route)
+  // Le clic milieu (bouton 1) est ignoré par router.push pour laisser le navigateur ouvrir l'onglet
+  if (e.button !== 1) {
+    router.push(route)
+  }
 }
 
 const getPosterUrl = (path) => path ? `https://image.tmdb.org/t/p/w300${path}` : null
@@ -63,11 +67,11 @@ const extractYear = (m) => {
         </div>
         
         <div class="grid-posters">
-          <a 
+          <router-link 
             v-for="m in derniersAjouts" 
             :key="m.movieId" 
-            :href="'/film/' + m.movieId"
-            @click.prevent="navigateSafely($event, '/film/' + m.movieId)"
+            :to="'/film/' + m.movieId"
+            @click.native="navigateSafely($event, '/film/' + m.movieId)"
             class="poster-card"
             draggable="false"
           >
@@ -80,7 +84,7 @@ const extractYear = (m) => {
               <span class="movie-original">{{ m.originalName }}</span>
               <span class="movie-year">{{ extractYear(m) }}</span>
             </div>
-          </a>
+          </router-link>
         </div>
       </section>
 
@@ -91,11 +95,11 @@ const extractYear = (m) => {
         </div>
 
         <div class="grid-comediens">
-          <a 
+          <router-link 
             v-for="(c, index) in topComediens" 
             :key="c.nom" 
-            :href="'/doubleur/' + c.nom"
-            @click.prevent="navigateSafely($event, '/doubleur/' + c.nom)"
+            :to="'/doubleur/' + c.nom"
+            @click.native="navigateSafely($event, '/doubleur/' + c.nom)"
             class="comedien-card"
             draggable="false"
           >
@@ -105,7 +109,7 @@ const extractYear = (m) => {
               <span class="comedien-stats">{{ c.count }} FICHES</span>
             </div>
             <span class="arrow">→</span>
-          </a>
+          </router-link>
         </div>
       </section>
 
@@ -119,10 +123,10 @@ const extractYear = (m) => {
 </template>
 
 <style scoped>
+/* --- TON STYLE ORIGINAL PRÉSERVÉ À 100% --- */
 .home-page { padding: 40px 20px; }
 .container { max-width: 1400px; margin: 0 auto; }
 
-/* TITRE ORIGINAL */
 .movie-original { 
   display: block; 
   color: #555; 
@@ -135,17 +139,14 @@ const extractYear = (m) => {
   transition: color 0.3s;
 }
 
-/* EFFETS HOVER SUR LE TEXTE */
 .poster-card:hover .movie-title { color: var(--primary); }
 .poster-card:hover .movie-original { color: #888; }
 
-/* HERO */
 .hero-section { margin-bottom: 60px; border-left: 4px solid var(--primary); padding-left: 20px; }
 .hero-section h1 { font-size: 2.2rem; font-weight: 900; margin: 0 0 10px 0; text-transform: uppercase; }
 .hero-section h1 span { color: var(--primary); }
 .hero-section p { color: var(--text-muted); font-size: 1.1rem; max-width: 800px; margin: 0; line-height: 1.6; }
 
-/* SECTIONS */
 .section { margin-bottom: 60px; }
 .section-header { 
   display: flex; 
@@ -174,7 +175,6 @@ const extractYear = (m) => {
 }
 .btn-voir-tout:hover { background: var(--primary); color: white; border-color: var(--primary); }
 
-/* GRID POSTERS */
 .grid-posters {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -202,7 +202,6 @@ const extractYear = (m) => {
 .movie-title { display: block; color: white; font-weight: 700; font-size: 0.95rem; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transition: color 0.3s; }
 .movie-year { display: block; color: var(--primary); font-size: 0.8rem; font-weight: 800; }
 
-/* GRID COMEDIENS */
 .grid-comediens {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -221,12 +220,10 @@ const extractYear = (m) => {
 .arrow { color: #222; font-size: 1.2rem; transition: 0.2s; }
 .comedien-card:hover .arrow { color: var(--primary); transform: translateX(3px); }
 
-/* LOADER */
 .loader { text-align: center; padding: 100px; color: var(--primary); font-weight: 800; }
 .spinner { width: 40px; height: 40px; border: 4px solid #262626; border-top: 4px solid var(--primary); border-radius: 50%; margin: 0 auto 15px; animation: spin 1s linear infinite; }
 @keyframes spin { 100% { transform: rotate(360deg); } }
 
-/* RESPONSIVE */
 @media (max-width: 1200px) { .grid-posters { grid-template-columns: repeat(4, 1fr); } }
 @media (max-width: 900px) { .grid-posters { grid-template-columns: repeat(3, 1fr); } .grid-comediens { grid-template-columns: repeat(2, 1fr); } .hero-section h1 { font-size: 1.8rem; } }
 @media (max-width: 650px) {
