@@ -39,29 +39,31 @@ const availableYears = computed(() => {
 
 const filtered = computed(() => {
   if (!items.value) return []
-  
   let list = items.value.filter(m => {
+    const isProj = isAnimation(m)
     const year = extractYear(m)
-    return isAnimation(m) && (selectedYear.value === '' || String(year) === String(selectedYear.value))
+    return isProj && (selectedYear.value === '' || String(year) === String(selectedYear.value))
   })
-
-  if (sortType.value !== 'default') {
+  
+  if (sortType.value === 'recent') {
+    // Tri par ID du plus haut au plus bas (Ajouts récents)
+    list.sort((a, b) => Number(b.movieId) - Number(a.movieId))
+  } else if (sortType.value !== 'default') {
     list.sort((a, b) => {
       const nameA = (sortType.value === 'original' ? (a.originalName || a.extra?.originalName || '') : a.translatedName).toLowerCase()
       const nameB = (sortType.value === 'original' ? (b.originalName || b.extra?.originalName || '') : b.translatedName).toLowerCase()
       return nameA.localeCompare(nameB, sortType.value === 'original' ? 'en' : 'fr')
     })
   }
-  
   return list
 })
 
-// 2. LISTE TRONQUÉE POUR L'AFFICHAGE
+// 2. LISTE TRONQUÉE POUR LE LAZY LOADING
 const visibleItems = computed(() => {
   return filtered.value.slice(0, displayLimit.value)
 })
 
-// 3. LOGIQUE DE CHARGEMENT PROGRESSIF
+// 3. LOGIQUE DE CHARGEMENT PROGRESSIF (INFINITE SCROLL)
 const loadMore = () => {
   if (displayLimit.value < filtered.value.length) {
     displayLimit.value += 40
@@ -78,7 +80,7 @@ const handleScroll = () => {
   }
 }
 
-// Réinitialisation si l'utilisateur change de filtre
+// Réinitialisation de la grille si un filtre change
 watch([sortType, selectedYear], () => {
   displayLimit.value = 40
   window.scrollTo(0, 0)
@@ -113,6 +115,7 @@ const getPoster = (m) => {
             <label>Ordre</label>
             <select v-model="sortType">
               <option value="default">Par défaut</option>
+              <option value="recent">Ajouts récents</option>
               <option value="vfq">A-Z (VFQ)</option>
               <option value="original">A-Z (Original)</option>
             </select>
@@ -133,7 +136,6 @@ const getPoster = (m) => {
             <div class="poster-wrapper">
               <img v-if="getPoster(m)" :src="getPoster(m)" loading="lazy" draggable="false" />
               <div v-else class="placeholder"><span>VFQ</span></div>
-              
               <div class="overlay-mobile">
                 <span class="year-label">{{ extractYear(m) || '----' }}</span>
               </div>
@@ -152,46 +154,29 @@ const getPoster = (m) => {
       </div>
     </div>
   </div>
-
-  <div v-else class="loader">Chargement de l'animation...</div>
+  <div v-else class="loader">Chargement de la section animation...</div>
 </template>
 
 <style scoped>
-/* COHÉRENCE TOTALE AVEC TON DESIGN ORIGINAL */
+/* --- TON STYLE ORIGINAL PRÉSERVÉ À 100% --- */
 .centered-wrapper { max-width: 1400px; margin: 0 auto; padding: 40px 20px; }
-
-.header-section { 
-  display: flex; justify-content: space-between; align-items: flex-end; 
-  margin-bottom: 50px; border-left: 4px solid var(--primary); padding-left: 20px; 
-}
+.header-section { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 50px; border-left: 4px solid var(--primary); padding-left: 20px; }
 .title-area h1 { font-size: 3rem; font-weight: 900; margin: 0; text-transform: none; color: #fff; }
 .count { color: #666; font-weight: 800; font-size: 0.9rem; margin-top: 5px; }
 
 .controls { display: flex; gap: 20px; }
 .select-group { display: flex; flex-direction: column; gap: 8px; }
 .select-group label { font-size: 0.7rem; text-transform: none; color: #666; font-weight: 800; letter-spacing: 1px; }
-select { 
-  background: #1a1a1a; color: #fff; border: 1px solid #333; 
-  padding: 10px 15px; border-radius: 8px; min-width: 180px; outline: none; font-weight: 600;
-}
+select { background: #1a1a1a; color: #fff; border: 1px solid #333; padding: 10px 15px; border-radius: 8px; min-width: 180px; outline: none; font-weight: 600; }
 
-.titles-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 30px 20px;
-}
-
+.titles-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 30px 20px; }
 .movie-card { display: flex; flex-direction: column; min-width: 0; }
 
 .poster-link { text-decoration: none; display: block; transition: transform 0.3s ease; }
 .poster-link:hover { transform: scale(1.02); }
 
-.poster-wrapper {
-  position: relative; aspect-ratio: 2/3; border-radius: 8px;
-  overflow: hidden; background: #171717; border: 1px solid rgba(255,255,255,0.05);
-}
+.poster-wrapper { position: relative; aspect-ratio: 2/3; border-radius: 8px; overflow: hidden; background: #171717; border: 1px solid rgba(255,255,255,0.05); }
 .poster-wrapper img { width: 100%; height: 100%; object-fit: cover; -webkit-user-drag: none; }
-
 .placeholder { height: 100%; display: flex; align-items: center; justify-content: center; background: #1a1a1a; }
 .placeholder span { font-size: 2rem; color: #262626; font-weight: 900; letter-spacing: -1px; }
 
@@ -204,7 +189,6 @@ select {
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
     user-select: text; -webkit-user-select: text; transition: color 0.2s ease;
 }
-
 .original-name { 
     color: #888; font-size: 0.72rem; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
     user-select: text; -webkit-user-select: text; font-weight: 500; transition: all 0.2s ease;
@@ -221,7 +205,6 @@ select {
   .titles-grid { grid-template-columns: repeat(4, 1fr); gap: 20px 12px; }
   .title-area h1 { font-size: 2.2rem; }
 }
-
 @media (max-width: 700px) {
   .centered-wrapper { padding: 20px 10px; }
   .header-section { flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 25px; }
@@ -231,7 +214,6 @@ select {
   select { min-width: 0; width: 100%; padding: 8px; font-size: 0.75rem; }
   .titles-grid { grid-template-columns: repeat(3, 1fr); gap: 15px 8px; }
 }
-
 @media (max-width: 450px) {
   .info h3 { font-size: 0.7rem; }
   .titles-grid { gap: 10px 6px; }

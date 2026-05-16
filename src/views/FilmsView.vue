@@ -42,7 +42,11 @@ const filtered = computed(() => {
     const year = extractYear(m)
     return isProject && (selectedYear.value === '' || String(year) === String(selectedYear.value))
   })
-  if (sortType.value !== 'default') {
+  
+  if (sortType.value === 'recent') {
+    // Tri par ID du plus haut au plus bas (Ajouts récents)
+    list.sort((a, b) => Number(b.movieId) - Number(a.movieId))
+  } else if (sortType.value !== 'default') {
     list.sort((a, b) => {
       const nameA = (sortType.value === 'original' ? (a.originalName || a.extra?.originalName || '') : a.translatedName).toLowerCase()
       const nameB = (sortType.value === 'original' ? (b.originalName || b.extra?.originalName || '') : b.translatedName).toLowerCase()
@@ -110,6 +114,7 @@ const getPoster = (m) => {
             <label>Ordre</label>
             <select v-model="sortType">
               <option value="default">Par défaut</option>
+              <option value="recent">Ajouts récents</option>
               <option value="vfq">A-Z (VFQ)</option>
               <option value="original">A-Z (Original)</option>
             </select>

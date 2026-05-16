@@ -1,6 +1,8 @@
 <script setup>
-import { inject, computed, ref, onMounted, onUnmounted, watch } from 'vue'
+import { inject, computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
+
+defineOptions({ name: 'AllTitlesView' })
 
 const items = inject('database')
 const isLoaded = inject('isLoaded')
@@ -8,9 +10,6 @@ const router = useRouter()
 
 const sortType = ref('default') 
 const selectedYear = ref('')
-
-// 1. LIMITE D'AFFICHAGE INITIALE
-const displayLimit = ref(40)
 
 const navigateIfNoSelection = (movieId) => {
   const selection = window.getSelection().toString()
@@ -36,11 +35,20 @@ const availableYears = computed(() => {
 
 const filtered = computed(() => {
   if (!items.value) return []
+  
+  // Applique d'abord le filtre par année
   let list = items.value.filter(m => {
     const year = extractYear(m)
     return (selectedYear.value === '' || String(year) === String(selectedYear.value))
   })
-  if (sortType.value !== 'default') {
+  
+  // Applique ensuite le tri sélectionné
+  if (sortType.value === 'recent') {
+    // Tri par ID du plus haut au plus bas (Ajouts récents)
+    list.sort((a, b) => {
+      return Number(b.movieId) - Number(a.movieId)
+    })
+  } else if (sortType.value !== 'default') {
     list.sort((a, b) => {
       const nameA = (sortType.value === 'original' ? (a.originalName || '') : a.translatedName || '').toLowerCase()
       const nameB = (sortType.value === 'original' ? (b.originalName || '') : b.translatedName || '').toLowerCase()
@@ -48,43 +56,6 @@ const filtered = computed(() => {
     })
   }
   return list
-})
-
-// 2. LA LISTE RÉELLEMENT AFFICHÉE (TRONQUÉE)
-const visibleItems = computed(() => {
-  return filtered.value.slice(0, displayLimit.value)
-})
-
-// 3. FONCTION POUR CHARGER PLUS
-const loadMore = () => {
-  if (displayLimit.value < filtered.value.length) {
-    displayLimit.value += 40
-  }
-}
-
-// 4. DÉTECTEUR DE SCROLL
-const handleScroll = () => {
-  const scrollHeight = document.documentElement.scrollHeight
-  const scrollTop = document.documentElement.scrollTop
-  const clientHeight = window.innerHeight
-  
-  if (scrollTop + clientHeight >= scrollHeight - 600) { // On charge un peu avant la fin
-    loadMore()
-  }
-}
-
-// 5. RÉINITIALISATION SI FILTRE CHANGE
-watch([sortType, selectedYear], () => {
-  displayLimit.value = 40
-  window.scrollTo(0, 0)
-})
-
-onMounted(() => {
-  window.addEventListener('scroll', handleScroll)
-})
-
-onUnmounted(() => {
-  window.removeEventListener('scroll', handleScroll)
 })
 
 const getPoster = (m) => {
@@ -112,6 +83,7 @@ const isAnimation = (movie) => {
             <label>Ordre</label>
             <select v-model="sortType">
               <option value="default">Par défaut</option>
+              <option value="recent">Ajouts récents</option>
               <option value="vfq">A-Z (VFQ)</option>
               <option value="original">A-Z (Original)</option>
             </select>
@@ -127,7 +99,7 @@ const isAnimation = (movie) => {
       </div>
 
       <div class="titles-grid">
-        <div v-for="movie in visibleItems" :key="movie.movieId" class="movie-card">
+        <div v-for="movie in filtered" :key="movie.movieId" class="movie-card">
           <router-link :to="'/film/' + movie.movieId" class="poster-link" draggable="false">
             <div class="poster-wrapper">
               <img v-if="getPoster(movie)" :src="getPoster(movie)" loading="lazy" draggable="false" />
@@ -147,17 +119,13 @@ const isAnimation = (movie) => {
           </div>
         </div>
       </div>
-
-      <div v-if="displayLimit < filtered.length" class="loader-scrolling">
-        Chargement de la suite...
-      </div>
     </div>
   </div>
   <div v-else class="loader">Chargement du catalogue...</div>
 </template>
 
 <style scoped>
-/* TA STRUCTURE ET TON DESIGN SONT INTACTS */
+/* --- TON STYLE ORIGINAL PRÉSERVÉ À 100% --- */
 .centered-wrapper { max-width: 1400px; margin: 0 auto; padding: 40px 20px; }
 .header-section { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 50px; border-left: 4px solid var(--primary); padding-left: 20px; }
 .title-area h1 { font-size: 3rem; font-weight: 900; margin: 0; text-transform: none; color: #fff; }
@@ -197,8 +165,6 @@ select { background: #1a1a1a; color: #fff; border: 1px solid #333; padding: 10px
 
 .movie-card:hover .original-name { color: #ccc; }
 .movie-card:hover h3 { color: var(--primary); }
-
-.loader-scrolling { text-align: center; padding: 40px; color: #444; font-weight: 800; font-size: 0.8rem; text-transform: none; letter-spacing: 2px; }
 
 /* --- RESPONSIVE --- */
 @media (max-width: 1100px) { .titles-grid { grid-template-columns: repeat(4, 1fr); } }

@@ -154,7 +154,11 @@ provide('isLoaded', isLoaded)
     </nav>
     
     <main class="main-container" @click="closeMenu">
-      <router-view v-if="isLoaded" />
+      <router-view v-if="isLoaded" v-slot="{ Component }">
+        <keep-alive :include="['FilmsView', 'SeriesView', 'AnimationView', 'ComediensView', 'AllTitlesView']">
+          <component :is="Component" />
+        </keep-alive>
+      </router-view>
       <div v-else class="page-loading">Chargement de la base VFQ...</div>
     </main>
 
