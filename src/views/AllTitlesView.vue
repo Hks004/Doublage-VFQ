@@ -154,7 +154,7 @@ select { background: #1a1a1a; color: #fff; border: 1px solid #333; padding: 10px
 
 .info { margin-top: 8px; cursor: pointer; }
 .info h3 { 
-    color: #fff; font-size: 0.85rem; font-weight: 700; margin: 0; line-height: 1.2; text-transform: none;
+    color: #fff; font-size: 0.8rem; font-weight: 700; margin: 0; line-height: 1.2; text-transform: none;
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
     user-select: text; -webkit-user-select: text; transition: color 0.2s ease;
 }
