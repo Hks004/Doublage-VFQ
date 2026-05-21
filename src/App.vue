@@ -87,6 +87,15 @@ const selectPerson = (name, type) => {
 
 provide('database', allData)
 provide('isLoaded', isLoaded)
+
+// --- LOGIQUE ANALYTICS (GoatCounter) ---
+router.afterEach((to) => {
+  if (window.goatcounter && window.goatcounter.count) {
+    window.goatcounter.count({
+      path: to.fullPath,
+    })
+  }
+})
 </script>
 
 <template>
@@ -182,7 +191,6 @@ provide('isLoaded', isLoaded)
 </template>
 
 <style>
-/* --- STYLE ORIGINAL PRÉSERVÉ --- */
 :root {
   --primary: #2563eb;
   --bg: #0a0a0a;
