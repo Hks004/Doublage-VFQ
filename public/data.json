@@ -65646,7 +65646,7 @@
             },
             {
                 "actor": "James Marsden",
-                "doubleVFQ": "À confirmer",
+                "doubleVFQ": "Benoit Éthier",
                 "role": "Steve Clark"
             },
             {
@@ -416646,12 +416646,12 @@
                 "role": "Cash"
             },
             {
-                "actor": "À Confirmer",
+                "actor": "À confirmer",
                 "doubleVFQ": "Pierre Houde",
                 "role": "Commentateur F1 #1"
             },
             {
-                "actor": "À Confirmer",
+                "actor": "À confirmer",
                 "doubleVFQ": "Bertrand Houle",
                 "role": "Commentateur F1 #2"
             }
@@ -418831,7 +418831,7 @@
                 "role": "Martha"
             },
             {
-                "actor": "À Confirmer",
+                "actor": "À confirmer",
                 "doubleVFQ": "Antoine Olivier Pilon",
                 "role": "Rafi"
             },
@@ -419371,17 +419371,17 @@
                 "role": "Sandy"
             },
             {
-                "actor": "À Confirmer",
+                "actor": "À confirmer",
                 "doubleVFQ": "François Trudel",
                 "role": "Animateur de podcast"
             },
             {
-                "actor": "À Confirmer",
+                "actor": "À confirmer",
                 "doubleVFQ": "Viviane Pacal",
                 "role": "Animatrice de podcast"
             },
             {
-                "actor": "À Confirmer",
+                "actor": "À confirmer",
                 "doubleVFQ": "Marie-Evelyne Lessard",
                 "role": "Journaliste"
             }
@@ -419761,22 +419761,22 @@
                 "role": "Max Martin"
             },
             {
-                "actor": "À Confirmer",
+                "actor": "À confirmer",
                 "doubleVFQ": "Lyndz Dantiste",
                 "role": "Conducteur de bateau ponton"
             },
             {
-                "actor": "À Confirmer",
+                "actor": "À confirmer",
                 "doubleVFQ": "Daniel Picard",
                 "role": "Animateur de radio"
             },
             {
-                "actor": "À Confirmer",
+                "actor": "À confirmer",
                 "doubleVFQ": "Marc-André Bélanger",
                 "role": "Présentateur de journal"
             },
             {
-                "actor": "À Confirmer",
+                "actor": "À confirmer",
                 "doubleVFQ": "Marie-Claude Hénault",
                 "role": "Femme à la télévision"
             }
@@ -424108,5 +424108,615 @@
         },
         "keywords": "Riz,Ahmed,récipiendaire,de,prix,Oscar,et,Emmy,nous,offre,L'appât,une,comédie,dans,laquelle,il,interprète,Shah,Latif,un,acteur,qui,en,arrache,Il,se,voit,offrir,une,dernière,chance,de,percer,grâce,à,une,audition,prestigieuse,On,le,suit,au,cours,des,quatre,jours,suivants,où,il,perd,pied,alors,que,sa,famille,son,ex,et,le,monde,entier,se,demandent,s'il,est,le,meilleur,candidat,pour,le,rôle",
         "posterPath": "/gX9zWmUnrjCZEPpultvvFtSUb93.jpg"
+    },
+    {
+        "movieId": 6637,
+        "translatedName": "Violence gardée",
+        "originalName": "Walls",
+        "description": "Un travailleur social tente de mettre fin au traitement inhumain des détenus.",
+        "cast": [
+            {
+                "actor": "Lloyd Berry",
+                "doubleVFQ": "À confirmer",
+                "role": "Warden Lou Gallagher"
+            },
+            {
+                "actor": "Anthony Holland",
+                "doubleVFQ": "Marcel Cabay",
+                "role": "Frank McIntyre"
+            },
+            {
+                "actor": "Elizabeth Leigh-Milne",
+                "doubleVFQ": "À confirmer",
+                "role": "Karen"
+            },
+            {
+                "actor": "Perry Long",
+                "doubleVFQ": "À confirmer",
+                "role": "Ben Nelson"
+            },
+            {
+                "actor": "John Lord",
+                "doubleVFQ": "Gilbert Lachance",
+                "role": "Louis Martin"
+            },
+            {
+                "actor": "Andrée Pelletier",
+                "doubleVFQ": "Elle-même",
+                "role": "Joan Tremblay"
+            },
+            {
+                "actor": "Tony Morelli",
+                "doubleVFQ": "Jacques Lavallée",
+                "role": "Frenchie"
+            },
+            {
+                "actor": "Winston Rekert",
+                "doubleVFQ": "Hubert Gagnon",
+                "role": "Danny Baker"
+            },
+            {
+                "actor": "Alan Scarfe",
+                "doubleVFQ": "Luis De Cespedes",
+                "role": "Ron Simmons"
+            },
+            {
+                "actor": "Howard Storey",
+                "doubleVFQ": "André Montmorency",
+                "role": "Hiller"
+            },
+            {
+                "actor": "Dale Wilson",
+                "doubleVFQ": "Jacques Brouillet",
+                "role": "Jim Conners"
+            },
+            {
+                "actor": "John Wright",
+                "doubleVFQ": "Pierre Auger",
+                "role": "Curt Willis"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Inconnue",
+            "adapter": "Inconnue",
+            "studio": "Super Sync Inc",
+            "theatricalRelease": "9 septembre 1984",
+            "dvdRelease": "Inconnue",
+            "producer": "Jerico Films",
+            "distributor": "Inconnu"
+        },
+        "keywords": "Un,travailleur,social,tente,de,mettre,fin,au,traitement,inhumain,des,détenus",
+        "posterPath": "/6O044RU15H0VtOQyqY9eQBWvnbm.jpg"
+    },
+    {
+        "movieId": 6638,
+        "translatedName": "Auprès de toi",
+        "originalName": "Close to You",
+        "description": "Un homme transgenre revient dans sa ville natale pour la première fois depuis des années. Au cours de son périple, il confronte sa relation avec sa famille, retrouve son premier amour et découvre une nouvelle confiance en lui",
+        "cast": [
+            {
+                "actor": "Elliot Page",
+                "doubleVFQ": "Lé Aubin",
+                "role": "Sam"
+            },
+            {
+                "actor": "Jim Watson",
+                "doubleVFQ": "David Laurin",
+                "role": "Daniel"
+            },
+            {
+                "actor": "Sook-Yin Lee",
+                "doubleVFQ": "Cynthia Wu-Maheux",
+                "role": "Emily"
+            },
+            {
+                "actor": "Peter Outerbridge",
+                "doubleVFQ": "Benoît Rousseau",
+                "role": "Jim"
+            },
+            {
+                "actor": "Janet Porter",
+                "doubleVFQ": "Rose-Maïté Erkoreka",
+                "role": "Kate"
+            },
+            {
+                "actor": "Hillary Baack",
+                "doubleVFQ": "Julie Beauchemin",
+                "role": "Katherine"
+            },
+            {
+                "actor": "Alex Paxton-Beesley",
+                "doubleVFQ": "Catherine Proulx-Lemay",
+                "role": "Megan"
+            },
+            {
+                "actor": "Daniel Maslany",
+                "doubleVFQ": "Nicholas Savard L'Herbier",
+                "role": "Michael"
+            },
+            {
+                "actor": "Wendy Crewson",
+                "doubleVFQ": "Élise Bertrand",
+                "role": "Miriam"
+            },
+            {
+                "actor": "David Reale",
+                "doubleVFQ": "Maël Davan-Soulas",
+                "role": "Paul"
+            },
+            {
+                "actor": "Andrew Bushell",
+                "doubleVFQ": "Rodley Pitt",
+                "role": "Stephen"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Johanne Léveillé",
+            "adapter": "Thibaud De Courrèges",
+            "studio": "La Belle Équipe",
+            "theatricalRelease": "16 août 2024",
+            "dvdRelease": "8 octobre 2024",
+            "producer": "Good Question Media",
+            "distributor": "Mongrel Media"
+        },
+        "keywords": "Un,homme,transgenre,revient,dans,sa,ville,natale,pour,la,première,fois,depuis,des,années,Au,cours,de,son,périple,il,confronte,sa,relation,avec,sa,famille,retrouve,son,premier,amour,et,découvre,une,nouvelle,confiance,en,lui",
+        "posterPath": "/9vCHM2IVdLI7dsamnrhPPGdcu9h.jpg"
+    },
+    {
+        "movieId": 6639,
+        "translatedName": "L'entremetteuse",
+        "originalName": "Materialists",
+        "description": "Une jeune et ambitieuse entremetteuse de New York se retrouve prise au centre d'un triangle amoureux entre le match parfait et son ex imparfait.",
+        "cast": [
+            {
+                "actor": "Louisa Jacobson",
+                "doubleVFQ": "Marie-Laurence Boulet",
+                "role": "Charlotte"
+            },
+            {
+                "actor": "Dasha Nekrasova",
+                "doubleVFQ": "Laurence Dauphinais",
+                "role": "Daisy"
+            },
+            {
+                "actor": "Pedro Pascal",
+                "doubleVFQ": "Frédérik Zacharek",
+                "role": "Harry"
+            },
+            {
+                "actor": "Chris Evans",
+                "doubleVFQ": "Alexandre Fortin",
+                "role": "John"
+            },
+            {
+                "actor": "Dakota Johnson",
+                "doubleVFQ": "Rachel Graton",
+                "role": "Lucy"
+            },
+            {
+                "actor": "John Magaro",
+                "doubleVFQ": "Renaud Paradis",
+                "role": "Mark"
+            },
+            {
+                "actor": "Halley Feiffer",
+                "doubleVFQ": "Mélanie Laberge",
+                "role": "Patricia"
+            },
+            {
+                "actor": "Eddie Cahill",
+                "doubleVFQ": "Frédéric Paquet",
+                "role": "Robert"
+            },
+            {
+                "actor": "Zoë Winters",
+                "doubleVFQ": "Jessica Léveillée-Lemay",
+                "role": "Sophie"
+            },
+            {
+                "actor": "Marin Ireland",
+                "doubleVFQ": "Véronique Marchand",
+                "role": "Violet"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Mélanie Laberge",
+            "adapter": "Marie Frankland",
+            "studio": "Cinélume",
+            "theatricalRelease": "13 juin 2025",
+            "dvdRelease": "9 septembre 2025",
+            "producer": "2AM et Killer Films",
+            "distributor": "Sony Pictures Releasing International et Stage 6 Films"
+        },
+        "keywords": "Une,jeune,et,ambitieuse,entremetteuse,de,New,York,se,retrouve,prise,au,centre,d'un,triangle,amoureux,entre,le,match,parfait,et,son,ex,imparfait",
+        "posterPath": "/cpslwOK6Sc0resQHLQh2FAoV2It.jpg"
+    },
+    {
+        "movieId": 6640,
+        "translatedName": "Song Sung Blue",
+        "originalName": "Song Sung Blue",
+        "description": "Deux musiciens à la dérive forment un joyeux groupe de reprises des chansons de Neil Diamond, prouvant qu'il n'est jamais trop tard pour trouver l'amour et réaliser ses rêves.",
+        "cast": [
+            {
+                "actor": "Hugh Jackman",
+                "doubleVFQ": "Daniel Picard",
+                "role": "Mike"
+            },
+            {
+                "actor": "Kate Hudson",
+                "doubleVFQ": "Camille Cyr-Desmarais",
+                "role": "Claire"
+            },
+            {
+                "actor": "Ella Anderson",
+                "doubleVFQ": "Alice Déry",
+                "role": "Rachel"
+            },
+            {
+                "actor": "Jim Belushi",
+                "doubleVFQ": "Normand D'Amour",
+                "role": "Tom D'Amato"
+            },
+            {
+                "actor": "Fisher Stevens",
+                "doubleVFQ": "Stéphane Jacques",
+                "role": "Dave"
+            },
+            {
+                "actor": "Hudson Hensley",
+                "doubleVFQ": "Jérôme Dion",
+                "role": "Dana"
+            },
+            {
+                "actor": "King Princess",
+                "doubleVFQ": "Marguerite D'Amour",
+                "role": "Angelina"
+            },
+            {
+                "actor": "Michael Imperioli",
+                "doubleVFQ": "Antoine Durand",
+                "role": "Mark"
+            },
+            {
+                "actor": "Mustafa Shakir",
+                "doubleVFQ": "Fayolle Jean Jr.",
+                "role": "Sex Machine"
+            },
+            {
+                "actor": "Jayson Warner Smith",
+                "doubleVFQ": "Frédéric Paquet",
+                "role": "Earl"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Frédérik Zacharek",
+            "adapter": "David Axelrad",
+            "studio": "Difuze",
+            "theatricalRelease": "25 décembre 2025",
+            "dvdRelease": "17 février 2026",
+            "producer": "Davis Entertainment",
+            "distributor": "Universal Pictures"
+        },
+        "keywords": "Deux,musiciens,à,la,dérive,forment,un,joyeux,groupe,de,reprises,des,chansons,de,Neil,Diamond,prouvant,qu'il,n'est,jamais,trop,tard,pour,trouver,l'amour,et,réaliser,ses,rêves",
+        "posterPath": "/xStmzLprgzqjzfvpBI7uTbcRpwQ.jpg"
+    },
+    {
+        "movieId": 6641,
+        "translatedName": "La famille la plus heureuse d'Amérique",
+        "originalName": "#1 Happy Family USA",
+        "description": "Ramy Youssef présente La famille la plus heureuse d'Amérique, une série animée pour adultes qui suit les Hussein, une famille musulmane optimiste, patriotique, pacifique et absolument pas suspecte dans l'Amérique de l'après 11 septembre. Alors qu'ils traversent le début des années 2000 sous les yeux de leurs voisins terrifiés, cette série invente une nouvelle façon de rire face à l'adversité.",
+        "cast": [
+            {
+                "actor": "Ramy Youssef",
+                "doubleVFQ": "Patrick Chouinard",
+                "role": "Hussein Hussein"
+            },
+            {
+                "actor": "Ramy Youssef",
+                "doubleVFQ": "Nicolas DePassillé-Scott",
+                "role": "Rumi Hussein"
+            },
+            {
+                "actor": "Salma Hindy",
+                "doubleVFQ": "Hélène Mondoux",
+                "role": "Sharia Hussein"
+            },
+            {
+                "actor": "Alia Shawkat",
+                "doubleVFQ": "Natalie Tannous",
+                "role": "Mona Hussein"
+            },
+            {
+                "actor": "Mandy Moore",
+                "doubleVFQ": "Mélanie Laberge",
+                "role": "Mme Malcolm"
+            },
+            {
+                "actor": "Azhar Usman",
+                "doubleVFQ": "Manuel Tadros",
+                "role": "Grand-père"
+            },
+            {
+                "actor": "Paul Elia",
+                "doubleVFQ": "Reda Guerinik",
+                "role": "Oncle Ahmed"
+            },
+            {
+                "actor": "Megan Stalter",
+                "doubleVFQ": "Estelle Fournier",
+                "role": "Gina"
+            },
+            {
+                "actor": "Akaash Singh",
+                "doubleVFQ": "Xiao Yi Hernan",
+                "role": "Dev"
+            },
+            {
+                "actor": "Whitmer Thomas",
+                "doubleVFQ": "Jérémie Desbiens",
+                "role": "Garrett"
+            },
+            {
+                "actor": "Timothy Olyphant",
+                "doubleVFQ": "Frédéric Paquet",
+                "role": "Dan"
+            },
+            {
+                "actor": "Chris Redd",
+                "doubleVFQ": "Louis-Julien Durso",
+                "role": "Marcus"
+            },
+            {
+                "actor": "Dina Hashem",
+                "doubleVFQ": "Aurélie Morgane",
+                "role": "Lamby"
+            },
+            {
+                "actor": "Paul Elia",
+                "doubleVFQ": "Frédérik Zacharek",
+                "role": "Courtney"
+            },
+            {
+                "actor": "Kieran Culkin",
+                "doubleVFQ": "Maxime Desjardins",
+                "role": "Dr. Riley"
+            },
+            {
+                "actor": "Randa Jarrar",
+                "doubleVFQ": "Chantal Baril",
+                "role": "Grand-mère"
+            },
+            {
+                "actor": "Eric Bauza",
+                "doubleVFQ": "Manuel Tadros",
+                "role": "Antonio Banderas"
+            },
+            {
+                "actor": "À confirmer",
+                "doubleVFQ": "Florence Blain Mbaye",
+                "role": "Rebecca/Donna"
+            },
+            {
+                "actor": "À confirmer",
+                "doubleVFQ": "Geneviève Bédard",
+                "role": "Carole du FBI/Martha"
+            },
+            {
+                "actor": "À confirmer",
+                "doubleVFQ": "Alexis Lefebvre",
+                "role": "Jeff"
+            },
+            {
+                "actor": "À confirmer",
+                "doubleVFQ": "Ariane Castellanos",
+                "role": "Nabeela"
+            },
+            {
+                "actor": "À confirmer",
+                "doubleVFQ": "Philippe Racine",
+                "role": "George/Donald"
+            },
+            {
+                "actor": "À confirmer",
+                "doubleVFQ": "Lauriane S. Thibodeau",
+                "role": "Thorn"
+            },
+            {
+                "actor": "À confirmer",
+                "doubleVFQ": "Nathan Bois-McDonald",
+                "role": "Deathface"
+            },
+            {
+                "actor": "À confirmer",
+                "doubleVFQ": "Frédérik Zacharek",
+                "role": "Vlad/Ted Cruz"
+            },
+            {
+                "actor": "À confirmer",
+                "doubleVFQ": "Frédéric Paquet",
+                "role": "Aaron Brookings"
+            },
+            {
+                "actor": "À confirmer",
+                "doubleVFQ": "Aurélie Morgane",
+                "role": "Gaye Martine"
+            },
+            {
+                "actor": "À confirmer",
+                "doubleVFQ": "François Sasseville",
+                "role": "Principal Dennis"
+            },
+            {
+                "actor": "À confirmer",
+                "doubleVFQ": "Gabriel Lessard",
+                "role": "Steve"
+            },
+            {
+                "actor": "À confirmer",
+                "doubleVFQ": "Louis-Olivier Mauffette",
+                "role": "George W. Bush"
+            }
+        ],
+        "extra": {
+            "projectType": "Animation/jeunesse",
+            "director": "Frédérik Zacharek",
+            "adapter": "Bahia Kennedy, Benjamin Durand, Fannie-Amélie Morin et Andréane Girard",
+            "studio": "Difuze",
+            "theatricalRelease": "17 avril 2025",
+            "dvdRelease": "Inconnue",
+            "producer": "A24",
+            "distributor": "Amazon Prime Video"
+        },
+        "keywords": "Ramy,Youssef,présente,La,famille,la,plus,heureuse,d'Amérique,une,série,animée,pour,adultes,qui,suit,les,Hussein,une,famille,musulmane,optimiste,patriotique,pacifique,et,absolument,pas,suspecte,dans,l'Amérique,de,l'après,11,septembre,Alors,qu'ils,traversent,le,début,des,années,2000,sous,les,yeux,de,leurs,voisins,terrifiés,cette,série,invente,une,nouvelle,façon,de,rire,face,à,l'adversité",
+        "posterPath": "/u2XozLY12hBeQcViS4GzFRXgW4v.jpg"
+    },
+    {
+        "movieId": 6642,
+        "translatedName": "Le diable s'habille en Prada 2",
+        "originalName": "The Devil Wears Prada 2",
+        "description": "Andy Sachs se réunit avec Miranda Priestly alors qu'ils naviguent dans leur carrière au milieu du déclin de l'édition de magazines traditionnels.",
+        "cast": [
+            {
+                "actor": "Meryl Streep",
+                "doubleVFQ": "Marie-Andrée Corneille",
+                "role": "Miranda Priestly"
+            },
+            {
+                "actor": "Anne Hathaway",
+                "doubleVFQ": "Geneviève Désilets",
+                "role": "Andy Sachs"
+            },
+            {
+                "actor": "Emily Blunt",
+                "doubleVFQ": "Camille Cyr-Desmarais",
+                "role": "Emily"
+            },
+            {
+                "actor": "Stanley Tucci",
+                "doubleVFQ": "Alain Zouvi",
+                "role": "Nigel"
+            },
+            {
+                "actor": "Kenneth Branagh",
+                "doubleVFQ": "François Trudel",
+                "role": "Stuart"
+            },
+            {
+                "actor": "Justin Theroux",
+                "doubleVFQ": "Marc-André Bélanger",
+                "role": "Benji Barnes"
+            },
+            {
+                "actor": "Lucy Liu",
+                "doubleVFQ": "Anne Dorval",
+                "role": "Sasha Barnes"
+            },
+            {
+                "actor": "Tracie Thoms",
+                "doubleVFQ": "Sarah Desjeunes",
+                "role": "Lily"
+            },
+            {
+                "actor": "Tibor Feldman",
+                "doubleVFQ": "Marc Bellier",
+                "role": "Irv Ravitz"
+            },
+            {
+                "actor": "B.J. Novak",
+                "doubleVFQ": "François-Simon Poirier",
+                "role": "Jay Ravitz"
+            },
+            {
+                "actor": "Patrick Brammall",
+                "doubleVFQ": "Adrien Bletton",
+                "role": "Peter"
+            },
+            {
+                "actor": "Simone Ashley",
+                "doubleVFQ": "Sofia Blondin",
+                "role": "Amari"
+            },
+            {
+                "actor": "Caleb Hearon",
+                "doubleVFQ": "Christian Perrault",
+                "role": "Charlie"
+            },
+            {
+                "actor": "Helen J. Shen",
+                "doubleVFQ": "Romane Denis",
+                "role": "Jin"
+            },
+            {
+                "actor": "Rachel Bloom",
+                "doubleVFQ": "Émilie Bibeau",
+                "role": "Talia"
+            },
+            {
+                "actor": "Larry Mitchell",
+                "doubleVFQ": "Tristan Harvey",
+                "role": "Mack"
+            },
+            {
+                "actor": "Lady Gaga",
+                "doubleVFQ": "Alice Pascual",
+                "role": "Elle-même"
+            },
+            {
+                "actor": "Bria Condon",
+                "doubleVFQ": "Catherine Brunet",
+                "role": "Marta"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Mélanie Laberge",
+            "adapter": "Thibaud de Courrèges",
+            "studio": "Difuze",
+            "theatricalRelease": "1 mai 2026",
+            "dvdRelease": "Inconnue",
+            "producer": "Wendy Finerman Productions",
+            "distributor": "20th Century Studios"
+        },
+        "keywords": "Andy,Sachs,se,réunit,avec,Miranda,Priestly,alors,qu'ils,naviguent,dans,leur,carrière,au,milieu,du,déclin,de,l'édition,de,magazines,traditionnels",
+        "posterPath": "/pD5fSVgDW2L5993eAlDd2GFXwIp.jpg"
+    },
+    {
+        "movieId": 6643,
+        "translatedName": "Apex",
+        "originalName": "Apex",
+        "description": "Une femme endeuillée repoussant ses limites lors d'une aventure en solo dans les régions sauvages de l'Australie est au cœur d'un jeu tordu avec un tueur qui en a fait sa proie.",
+        "cast": [
+            {
+                "actor": "Eric Bana",
+                "doubleVFQ": "Jean-François Beaupré",
+                "role": "Tommy"
+            },
+            {
+                "actor": "Taron Egerton",
+                "doubleVFQ": "Louis-Philippe Berthiaume",
+                "role": "Ben"
+            },
+            {
+                "actor": "Charlize Theron",
+                "doubleVFQ": "Camille Cyr-Desmarais",
+                "role": "Sasha"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Frédéric Desager",
+            "adapter": "Nadine Taillon",
+            "studio": "Difuze",
+            "theatricalRelease": "24 avril 2026",
+            "dvdRelease": "Inconnue",
+            "producer": "Chernin Entertainment",
+            "distributor": "Netflix"
+        },
+        "keywords": "Une,femme,endeuillée,repoussant,ses,limites,lors,d'une,aventure,en,solo,dans,les,régions,sauvages,de,l'Australie,est,au,cœur,d'un,jeu,tordu,avec,un,tueur,qui,en,a,fait,sa,proie",
+        "posterPath": "/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg"
     }
 ]
