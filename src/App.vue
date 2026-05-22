@@ -93,6 +93,7 @@ router.afterEach((to) => {
   if (window.goatcounter && window.goatcounter.count) {
     window.goatcounter.count({
       path: to.fullPath,
+      event: false
     })
   }
 })
