@@ -358410,7 +358410,7 @@
         "movieId": 5618,
         "translatedName": "Parent, malheureusement",
         "originalName": "Children Ruin Everything",
-        "description": "Astrid et James ont du mal à trouver un équilibre entre être maman et papa de deux enfants et être ce qu'ils étaient avant leur progéniture.\n\n3 saisons; 34 épisodes de 23 minutes. 2022- ...\n\nAdaptation : A. Girard (S1), A. Joubert (S2-3).",
+        "description": "Astrid et James ont du mal à trouver un équilibre entre être maman et papa de deux enfants et être ce qu'ils étaient avant leur progéniture.\n\n4 saisons; 50 épisodes de 23 minutes. 2022-2025 ...\n\nAdaptation : A. Girard (S1), A. Joubert (S2-3).",
         "cast": [
             {
                 "actor": "Aaron Abrams",
@@ -426098,5 +426098,220 @@
         },
         "keywords": "Lorsqu'une,mystérieuse,entreprise,de,jouets,exploite,la,nouvelle,renommée,des,Tortues,les,frères,suivent,les,indices,jusqu'au,New,Jersey,où,ils,découvrent,une,découverte,choquante",
         "posterPath": "/trqwtP3SaCPUonSe360y0oIprRi.jpg"
+    },
+    {
+        "movieId": 6662,
+        "translatedName": "Bonne fortune",
+        "originalName": "Good Fortune",
+        "description": "L'ange Gabriel décide d'intervenir dans la vie d'un travailleur précaire et d'un homme fortuné.",
+        "cast": [
+            {
+                "actor": "Keanu Reeves",
+                "doubleVFQ": "Daniel Picard",
+                "role": "Gabriel"
+            },
+            {
+                "actor": "Aziz Ansari",
+                "doubleVFQ": "Sébastien Reding",
+                "role": "Arj"
+            },
+            {
+                "actor": "Keke Palmer",
+                "doubleVFQ": "Sofia Blondin",
+                "role": "Elena"
+            },
+            {
+                "actor": "Sandra Oh",
+                "doubleVFQ": "Valérie Gagné",
+                "role": "Martha"
+            },
+            {
+                "actor": "Seth Rogen",
+                "doubleVFQ": "Tristan Harvey",
+                "role": "Jeff"
+            },
+            {
+                "actor": "Felipe Garcia Martinez",
+                "doubleVFQ": "Maël Davan-Soulas",
+                "role": "Felipe"
+            },
+            {
+                "actor": "Wil Sylvince",
+                "doubleVFQ": "Alexandre Fortin",
+                "role": "Leonard"
+            },
+            {
+                "actor": "Matt Rogers",
+                "doubleVFQ": "Éric Bruneau",
+                "role": "Peter"
+            },
+            {
+                "actor": "Addie Weyrich",
+                "doubleVFQ": "Marie-Laurence Boulet",
+                "role": "Serveuse du Dunsmoore"
+            },
+            {
+                "actor": "Lakshmi Sundaram",
+                "doubleVFQ": "Alice Pascual",
+                "role": "Infirmière"
+            },
+            {
+                "actor": "À Confirmer",
+                "doubleVFQ": "Alice Pascual",
+                "role": "Femme du podcast/Secouriste"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Maël Davan-Soulas",
+            "adapter": "Dave Richard",
+            "studio": "Cinélume",
+            "theatricalRelease": "27 Octobre 2025",
+            "dvdRelease": "9 Décembre 2025",
+            "producer": "Garam Films et Oh Brudder Productions et Keep Your Head et Yang Pictures",
+            "distributor": "Lionsgate"
+        },
+        "keywords": "L'ange,Gabriel,décide,d'intervenir,dans,la,vie,d'un,travailleur,précaire,et,d'un,homme,fortuné",
+        "posterPath": "/zJmZ6pcnDO2wAqnoklcZSvyH7MU.jpg"
+    },
+    {
+        "movieId": 6663,
+        "translatedName": "Une bataille après l'autre",
+        "originalName": "One Battle After Another",
+        "description": "Bob Ferguson est un ancien révolutionnaire paranoïaque et désabusé, qui a jadis oeuvré avec son ex, Perfidia, au sein du French 75, un groupe militant voué au renversement du gouvernement américain. Seize ans plus tard, Bob vit seul avec sa fille, Willa, quand celle-ci disparaît soudainement. Bob soupçonne son vieil ennemi d'antan, le Colonel Steven J. Lockjaw, d'être responsable de sa disparition. Il décide alors de renouer avec ses anciens frères d'armes pour retrouver sa fille, quitte à confronter les fantômes de son passé.",
+        "cast": [
+            {
+                "actor": "Leonardo DiCaprio",
+                "doubleVFQ": "Tristan Harvey",
+                "role": "Bob"
+            },
+            {
+                "actor": "Sean Penn",
+                "doubleVFQ": "Sébastien Dhavernas",
+                "role": "Lockjaw"
+            },
+            {
+                "actor": "Benicio del Toro",
+                "doubleVFQ": "François Godin",
+                "role": "Sensei Sergio"
+            },
+            {
+                "actor": "Teyana Taylor",
+                "doubleVFQ": "Florence Blain Mbaye",
+                "role": "Perfidia"
+            },
+            {
+                "actor": "Regina Hall",
+                "doubleVFQ": "Sarah Desjeunes",
+                "role": "Deandra"
+            },
+            {
+                "actor": "Tony Goldwyn",
+                "doubleVFQ": "Frédéric Paquet",
+                "role": "Virgil"
+            },
+            {
+                "actor": "Chase Infiniti",
+                "doubleVFQ": "Léa Roy",
+                "role": "Willa"
+            },
+            {
+                "actor": "James Raterman",
+                "doubleVFQ": "Alexandre Daneau",
+                "role": "Danvers"
+            },
+            {
+                "actor": "Shayna McHayle",
+                "doubleVFQ": "Sofia Blondin",
+                "role": "Junglepussy"
+            },
+            {
+                "actor": "Paul Grimstad",
+                "doubleVFQ": "Nicolas Charbonneaux-Collombet",
+                "role": "Summerville"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Maël Davan-Soulas",
+            "adapter": "Alexis Joubert",
+            "studio": "Cinélume",
+            "theatricalRelease": "26 Septembre 2025",
+            "dvdRelease": "20 Janvier 2026",
+            "producer": "Warner Bros. Pictures et Ghoulardi Film Company",
+            "distributor": "Warner Bros. Pictures"
+        },
+        "keywords": "Bob,Ferguson,est,un,ancien,révolutionnaire,paranoïaque,et,désabusé,qui,a,jadis,oeuvré,avec,son,ex,Perfidia,au,sein,du,French,75,un,groupe,militant,voué,au,renversement,du,gouvernement,américain,Seize,ans,plus,tard,Bob,vit,seul,avec,sa,fille,Willa,quand,celle-ci,disparaît,soudainement,Bob,soupçonne,son,vieil,ennemi,d'antan,le,Colonel,Steven,J,Lockjaw,d'être,responsable,de,sa,disparition,Il,décide,alors,de,renouer,avec,ses,anciens,frères,d'armes,pour,retrouver,sa,fille,quitte,à,confronter,les,fantômes,de,son,passé",
+        "posterPath": "/ila5mBevv93gQke2wkNqpuQ5AQM.jpg"
+    },
+    {
+        "movieId": 6664,
+        "translatedName": "Seule au front",
+        "originalName": "Out Standing",
+        "description": "En 1995, de retour d'une mission de maintien de la paix en Croatie, la capitaine Sandra Perron – première femme officier d'infanterie au Canada – secoue l'armée en annonçant sa démission. Peu après, une photo troublante la montrant attachée à un arbre, inconsciente, en uniforme, refait surface. La machine médiatique s'emballe, l'armée lance une enquête, et Sandra se retrouve confrontée à ses traumatismes les plus enfouis. Refusant de se considérer comme une victime, elle choisit de parler, dévoilant le prix brutal du devoir et les batailles silencieuses qu'elle a menées contre le sexisme contre et l'hostilité dans les rangs.",
+        "cast": [
+            {
+                "actor": "Nina Kiri",
+                "doubleVFQ": "Catherine Brunet",
+                "role": "Sandra"
+            },
+            {
+                "actor": "Enrico Colantoni",
+                "doubleVFQ": "Daniel Picard",
+                "role": "Sergeant Monroe"
+            },
+            {
+                "actor": "Antoine Pilon",
+                "doubleVFQ": "Lui-même",
+                "role": "Langford"
+            },
+            {
+                "actor": "Andreas Apergis",
+                "doubleVFQ": "Louis-Philippe Dandenault",
+                "role": "Major Duval"
+            },
+            {
+                "actor": "Vincent Leclerc",
+                "doubleVFQ": "Lui-même",
+                "role": "Captain Pritchett"
+            },
+            {
+                "actor": "Stephen Kalyn",
+                "doubleVFQ": "Maël Davan-Soulas",
+                "role": "Kevin"
+            },
+            {
+                "actor": "Christian Jadah",
+                "doubleVFQ": "Adrien Bletton",
+                "role": "Inst. Bradburn"
+            },
+            {
+                "actor": "Brent Skagford",
+                "doubleVFQ": "Alexandre Fortin",
+                "role": "W.O. Marlowe"
+            },
+            {
+                "actor": "Adrian Walters",
+                "doubleVFQ": "Patrick Emmanuel Abellard",
+                "role": "Daniel"
+            },
+            {
+                "actor": "À Confirmer",
+                "doubleVFQ": "Noah Parker",
+                "role": "Russo"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Sébastien Reding",
+            "adapter": "Aurélie Laroche",
+            "studio": "Cinélume",
+            "theatricalRelease": "26 Septembre 2025",
+            "dvdRelease": "11 Novembre 2025",
+            "producer": "GPA Films et January Films",
+            "distributor": "Sphere Media"
+        },
+        "keywords": "En,1995,de,retour,d'une,mission,de,maintien,de,la,paix,en,Croatie,la,capitaine,Sandra,Perron,première,femme,officier,d'infanterie,au,Canada,secoue,l'armée,en,annonçant,sa,démission,Peu,après,une,photo,troublante,la,montrant,attachée,à,un,arbre,inconsciente,en,uniforme,refait,surface,La,machine,médiatique,s'emballe,l'armée,lance,une,enquête,et,Sandra,se,retrouve,confrontée,à,ses,traumatismes,les,plus,enfouis,Refusant,de,se,considérer,comme,une,victime,elle,choisit,de,parler,dévoilant,le,prix,brutal,du,devoir,et,les,batailles,silencieuses,qu'elle,a,menées,contre,le,sexisme,contre,et,l'hostilité,dans,les,rangs",
+        "posterPath": "/zfAjYiiDZW7KhoSpnbTn5GllVzg.jpg"
     }
 ]
