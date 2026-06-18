@@ -43,6 +43,8 @@ const navigateSafely = (e, route) => {
 
 const getPosterUrl = (path) => path ? `https://image.tmdb.org/t/p/w300${path}` : null
 
+const truncate = (str, max = 28) => str && str.length > max ? str.slice(0, max) + "..." : str
+
 const extractYear = (m) => {
   const val = m.theatricalRelease || m.extra?.theatricalRelease
   if (!val) return '----'
@@ -62,7 +64,7 @@ const extractYear = (m) => {
 
       <section class="section">
         <div class="section-header">
-          <h2 class="section-title">DERNIERS AJOUTS - 05/06/2026 - (7 fiches)</h2>
+          <h2 class="section-title">DERNIERS AJOUTS - 18/06/2026 - (7 fiches)</h2>
           <router-link to="/catalogue" class="btn-voir-tout">VOIR TOUT</router-link>
         </div>
         
@@ -80,8 +82,8 @@ const extractYear = (m) => {
               <div v-else class="poster-placeholder">VFQ</div>
             </div>
             <div class="poster-info">
-              <span class="movie-title">{{ m.translatedName }}</span>
-              <span class="movie-original">{{ m.originalName }}</span>
+              <span class="movie-title">{{ truncate(m.translatedName) }}</span>
+              <span class="movie-original">{{ truncate(m.originalName) }}</span>
               <span class="movie-year">{{ extractYear(m) }}</span>
             </div>
           </router-link>
@@ -227,6 +229,7 @@ const extractYear = (m) => {
 @media (max-width: 1200px) { .grid-posters { grid-template-columns: repeat(4, 1fr); } }
 @media (max-width: 900px) { .grid-posters { grid-template-columns: repeat(3, 1fr); } .grid-comediens { grid-template-columns: repeat(2, 1fr); } .hero-section h1 { font-size: 1.8rem; } }
 @media (max-width: 650px) {
+  .poster-img-wrapper { height: 200px; aspect-ratio: unset; }
   .home-page { padding: 20px 15px; }
   .grid-posters { grid-template-columns: repeat(2, 1fr); gap: 15px; }
   .grid-comediens { grid-template-columns: 1fr; }

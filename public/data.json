@@ -403279,6 +403279,51 @@
                 "actor": "Madelaine Petsch",
                 "doubleVFQ": "Ludivine Reding",
                 "role": "Maya"
+            },
+            {
+                "actor": "Sara Freedland",
+                "doubleVFQ": "Marie-Ève Beauregard",
+                "role": "Annie"
+            },
+            {
+                "actor": "Rachel Shenon",
+                "doubleVFQ": "Madeleine Péloquin",
+                "role": "Debbie"
+            },
+            {
+                "actor": "Stevee Davies",
+                "doubleVFQ": "Frédéric Millaire-Zouvi",
+                "role": "Dougie"
+            },
+            {
+                "actor": "Rafaella Biscayn",
+                "doubleVFQ": "Philomène Bilodeau",
+                "role": "Eden"
+            },
+            {
+                "actor": "Rebecka Johnson",
+                "doubleVFQ": "Madeleine Péloquin",
+                "role": "Lucy"
+            },
+            {
+                "actor": "Pablo Sandstorm",
+                "doubleVFQ": "Émile Mailhiot",
+                "role": "Neil"
+            },
+            {
+                "actor": "Ben Cartwright",
+                "doubleVFQ": "Benoît Gouin",
+                "role": "Rudy"
+            },
+            {
+                "actor": "Ema Horvath",
+                "doubleVFQ": "Justine Bouchard",
+                "role": "Shelly"
+            },
+            {
+                "actor": "Brooke Lena Johnson",
+                "doubleVFQ": "Rose-Maïté Erkoreka",
+                "role": "Opératrice du 911"
             }
         ],
         "extra": {
@@ -403286,8 +403331,8 @@
             "director": "Louis-Philippe Dandenault",
             "adapter": "Thibaud de Courrèges",
             "studio": "Cinélume",
-            "theatricalRelease": "Vendredi 17 Mai 2024",
-            "dvdRelease": ":  Mardi 23 Juillet 2024",
+            "theatricalRelease": "17 Mai 2024",
+            "dvdRelease": "23 Juillet 2024",
             "producer": "Coproduction internationale",
             "distributor": "Cinéplex"
         },
@@ -421136,7 +421181,7 @@
     },
     {
         "movieId": 6597,
-        "translatedName": "(aucun titre français connu)",
+        "translatedName": "La place du mort",
         "originalName": "She Rides Shotgun",
         "description": "Après des années de prison, Nate s'est fait de dangereux ennemis, dont le puissant gang criminel pour lequel il travaillait en prison. Pour prendre un nouveau départ, Nate rompt tout lien avec son ancien gang dès sa sortie, mais celui-ci décide de s'en prendre à sa famille. Nate récupère Polly, sa timide fille de dix ans qu'il connaît à peine, et prend la fuite pour sa sécurité.",
         "cast": [
@@ -425603,5 +425648,455 @@
         },
         "keywords": "Li,Fong,un,adolescent,qui,fréquente,l'école,de,kung-fu,de,M,Han,en,Chine,doit,déménager,à,New,York,avec,sa,mère,Celle-ci,souhaite,que,son,fils,intègre,une,école,prestigieuse,et,qu'il,mette,de,côté,son,sport,de,combat,À,son,arrivée,dans,sa,nouvelle,ville,Li,rencontre,Mia,une,camarade,de,classe,ainsi,que,le,père,de,celle-ci,avec,lesquels,il,se,lie,d'amitié,Li,se,retrouve,ensuite,entraîné,dans,une,compétition,d'arts,martiaux,où,il,doit,affronter,un,redoutable,champion,de,karaté",
         "posterPath": "/mdorE4G19XEmjUhA8xYJNK3Onqz.jpg"
+    },
+    {
+        "movieId": 6655,
+        "translatedName": "La Conjuration : Derniers rites",
+        "originalName": "The Conjuring: Last Rites",
+        "description": "Alors qu'ils espéraient une nouvelle vie, Ed et Lorraine Warren se voient impliqués dans une dernière enquête…qu'ils n'auraient jamais dû accepter. Dans la maison de la famille Smurl, un mal ancien les attend. Un ennemi qu'ils croyaient à jamais enfoui... Découvrez comment les Warren ont affronté le cas le plus maléfique de leur carrière, inspiré de faits réels qui ont terrorisé l'Amérique.",
+        "cast": [
+            {
+                "actor": "Patrick Wilson",
+                "doubleVFQ": "Patrice Dubois",
+                "role": "Ed Warren"
+            },
+            {
+                "actor": "Vera Farmiga",
+                "doubleVFQ": "Camille Cyr-Desmarais",
+                "role": "Lorraine Warren"
+            },
+            {
+                "actor": "Beau Gadsdon",
+                "doubleVFQ": "Sandrine Fagnant",
+                "role": "Dawn Smurl"
+            },
+            {
+                "actor": "Elliot Cowan",
+                "doubleVFQ": "François Trudel",
+                "role": "Jack Smurl"
+            },
+            {
+                "actor": "Rebecca Calder",
+                "doubleVFQ": "Catherine Bonneau",
+                "role": "Janet Smurl"
+            },
+            {
+                "actor": "Kila Lord Cassidy",
+                "doubleVFQ": "Estelle Fournier",
+                "role": "Heather Smurl"
+            },
+            {
+                "actor": "Ben Hardy",
+                "doubleVFQ": "Victor Naudet",
+                "role": "Tony Spera"
+            },
+            {
+                "actor": "Mia Tomlinson",
+                "doubleVFQ": "Léa Roy",
+                "role": "Judy Warren"
+            },
+            {
+                "actor": "Emmy Nolan",
+                "doubleVFQ": "Raphaëlle Desjardins-Arvisais",
+                "role": "Young Judy Warren"
+            },
+            {
+                "actor": "Tilly Walker",
+                "doubleVFQ": "Raphaëlle Desjardins-Arvisais",
+                "role": "Carin Smurl"
+            },
+            {
+                "actor": "À Confirmer",
+                "doubleVFQ": "Jean-Marie Moncelet",
+                "role": "John Smurl"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Sébastien Reding",
+            "adapter": "Dave Richard",
+            "studio": "Cinélume",
+            "theatricalRelease": "5 Septembre 2025",
+            "dvdRelease": "25 Novembre 2025",
+            "producer": "New Line Cinema et Atomic Monster et The Safran Company",
+            "distributor": "Warner Bros. Pictures"
+        },
+        "keywords": "Alors,qu'ils,espéraient,une,nouvelle,vie,Ed,et,Lorraine,Warren,se,voient,impliqués,dans,une,dernière,enquête,qu'ils,n'auraient,jamais,dû,accepter,Dans,la,maison,de,la,famille,Smurl,un,mal,ancien,les,attend,Un,ennemi,qu'ils,croyaient,à,jamais,enfoui,Découvrez,comment,les,Warren,ont,affronté,le,cas,le,plus,maléfique,de,leur,carrière,inspiré,de,faits,réels,qui,ont,terrorisé,l'Amérique",
+        "posterPath": "/hxjzP3vrWS9zrmPxDQH13Gz0GEK.jpg"
+    },
+    {
+        "movieId": 6656,
+        "translatedName": "La Mort d'une licorne",
+        "originalName": "Death of a Unicorn",
+        "description": "Alors qu'ils sont en route vers une retraite fermée de ressourcement, un père et sa fille percutent et tuent accidentellement une licorne. C'est alors que le patron milliardaire d'une compagnie pharmaceutique tente par tous les moyens d'exploiter les propriétés guérissantes miraculeuses de la créature.",
+        "cast": [
+            {
+                "actor": "Paul Rudd",
+                "doubleVFQ": "Patrice Dubois",
+                "role": "Elliot"
+            },
+            {
+                "actor": "Jenna Ortega",
+                "doubleVFQ": "Romane Denis",
+                "role": "Ridley"
+            },
+            {
+                "actor": "Téa Leoni",
+                "doubleVFQ": "Anne Dorval",
+                "role": "Belinda"
+            },
+            {
+                "actor": "Richard E. Grant",
+                "doubleVFQ": "François Trudel",
+                "role": "Odell"
+            },
+            {
+                "actor": "Will Poulter",
+                "doubleVFQ": "Xavier Dolan",
+                "role": "Shepard"
+            },
+            {
+                "actor": "Jessica Hynes",
+                "doubleVFQ": "Valérie Gagné",
+                "role": "Shaw"
+            },
+            {
+                "actor": "Anthony Carrigan",
+                "doubleVFQ": "Nicolas Bacon",
+                "role": "Griff"
+            },
+            {
+                "actor": "Steve Park",
+                "doubleVFQ": "Antoine Durand",
+                "role": "Song"
+            },
+            {
+                "actor": "Sunita Mani",
+                "doubleVFQ": "Jessica Léveillée-Lemay",
+                "role": "Bhatia"
+            },
+            {
+                "actor": "À Confirmer",
+                "doubleVFQ": "Isabelle Leyrolles",
+                "role": "Femme Ordinateur"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Christine Bellier",
+            "adapter": "Marie Frankland",
+            "studio": "Cinélume",
+            "theatricalRelease": "28 Mars 2025",
+            "dvdRelease": "8 Juillet 2025",
+            "producer": "A24",
+            "distributor": "A24"
+        },
+        "keywords": "Alors,qu'ils,sont,en,route,vers,une,retraite,fermée,de,ressourcement,un,père,et,sa,fille,percutent,et,tuent,accidentellement,une,licorne,C'est,alors,que,le,patron,milliardaire,d'une,compagnie,pharmaceutique,tente,par,tous,les,moyens,d'exploiter,les,propriétés,guérissantes,miraculeuses,de,la,créature",
+        "posterPath": "/cOYwXQJ48zSicCPZFfZEPVnHVy5.jpg"
+    },
+    {
+        "movieId": 6657,
+        "translatedName": "Le Combattant",
+        "originalName": "The Smashing Machine",
+        "description": "L'histoire de Mark Kerr, alias The Smashing Machine, champion d'arts martiaux mixtes et d'UFC.",
+        "cast": [
+            {
+                "actor": "Dwayne 'The Rock' Johnson",
+                "doubleVFQ": "Benoît Rousseau",
+                "role": "Mark"
+            },
+            {
+                "actor": "Emily Blunt",
+                "doubleVFQ": "Camille Cyr-Desmarais",
+                "role": "Dawn"
+            },
+            {
+                "actor": "Bas Rutten",
+                "doubleVFQ": "Louis-Philippe Dandenault",
+                "role": "Bas Rutten"
+            },
+            {
+                "actor": "Ryan Bader",
+                "doubleVFQ": "Frédérik Zacharek",
+                "role": "Coleman"
+            },
+            {
+                "actor": "Ilan Rosenberg",
+                "doubleVFQ": "Éric Bruneau",
+                "role": "L'homme de coin de Coleman"
+            },
+            {
+                "actor": "Raja Flores",
+                "doubleVFQ": "François Sasseville",
+                "role": "Dr Cortez"
+            },
+            {
+                "actor": "Naoshi Sasaki",
+                "doubleVFQ": "François L'Écuyer",
+                "role": "Pride Pharmacist"
+            },
+            {
+                "actor": "Stephen Quadros",
+                "doubleVFQ": "Paul Sarrasin",
+                "role": "Stephen Quadros"
+            },
+            {
+                "actor": "Kenny Rice",
+                "doubleVFQ": "Sébastien Dhavernas",
+                "role": "L'annonceur Vale Tudo"
+            },
+            {
+                "actor": "À Confirmer",
+                "doubleVFQ": "Jean-Jacques Lamothe",
+                "role": "L'annonceur UFC en 1997 / Homme à la télé"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Louis-Philippe Dandenault",
+            "adapter": "Marie Frankland",
+            "studio": "Cinélume",
+            "theatricalRelease": "3 Octobre 2025",
+            "dvdRelease": "6 Janvier 2026",
+            "producer": "A24",
+            "distributor": "A24"
+        },
+        "keywords": "L'histoire,de,Mark,Kerr,alias,The,Smashing,Machine,champion,d'arts,martiaux,mixtes,et,d'UFC",
+        "posterPath": "/eKHed1h2UMcd7RwK5gRgg3aqYrg.jpg"
+    },
+    {
+        "movieId": 6658,
+        "translatedName": "Heure de disparition",
+        "originalName": "Weapons",
+        "description": "En plein cœur de la nuit, les 17 enfants d'une classe de l'école primaire de Maybrook aux États-Unis se réveillent à une heure précise et s'enfuient de leurs foyers. Mus par une force inébranlable, ils sont partis à la course et personne ne sait où ils s'en sont allés. Tous ont disparu, sauf un. Alex est le seul élève restant. Paniqués et inquiets, les parents soupçonnent l'enseignante Justine Gandy d'avoir manigancé quelque chose.",
+        "cast": [
+            {
+                "actor": "Cary Christopher",
+                "doubleVFQ": "Oscar Vaillancourt",
+                "role": "Alex"
+            },
+            {
+                "actor": "Josh Brolin",
+                "doubleVFQ": "Gilbert Lachance",
+                "role": "Archer"
+            },
+            {
+                "actor": "Julia Garner",
+                "doubleVFQ": "Sandrine Fagnant",
+                "role": "Justine"
+            },
+            {
+                "actor": "Alden Ehrenreich",
+                "doubleVFQ": "Nicolas Charbonneaux-Collombet",
+                "role": "Paul"
+            },
+            {
+                "actor": "Benedict Wong",
+                "doubleVFQ": "Pierre-Étienne Rouillard",
+                "role": "Marcus"
+            },
+            {
+                "actor": "June Diane Raphael",
+                "doubleVFQ": "Sarah Desjeunes",
+                "role": "Donna"
+            },
+            {
+                "actor": "Toby Huss",
+                "doubleVFQ": "Éric Gaudry",
+                "role": "Ed"
+            },
+            {
+                "actor": "Amy Madigan",
+                "doubleVFQ": "Élise Bertrand",
+                "role": "Gladys"
+            },
+            {
+                "actor": "Scarlett Sher",
+                "doubleVFQ": "Marianne Chénier",
+                "role": "Maddie Vo + Wallas"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Adrien Loreau",
+            "adapter": "Bérangère Rouard",
+            "studio": "Cinélume",
+            "theatricalRelease": "8 Août 2025",
+            "dvdRelease": "14 Octobre 2025",
+            "producer": "New Line Cinema",
+            "distributor": "Warner Bros. Pictures"
+        },
+        "keywords": "En,plein,cœur,de,la,nuit,les,17,enfants,d'une,classe,de,l'école,primaire,de,Maybrook,aux,États-Unis,se,réveillent,à,une,heure,précise,et,s'enfuient,de,leurs,foyers,Mus,par,une,force,inébranlable,ils,sont,partis,à,la,course,et,personne,ne,sait,où,ils,s'en,sont,allés,Tous,ont,disparu,sauf,un,Alex,est,le,seul,élève,restant,Paniqués,et,inquiets,les,parents,soupçonnent,l'enseignante,Justine,Gandy,d'avoir,manigancé,quelque,chose",
+        "posterPath": "/lXoCayl82QvZZymgW6nqgJ85f6D.jpg"
+    },
+    {
+        "movieId": 6659,
+        "translatedName": "Inkwo à la défense des vivants",
+        "originalName": "Inkwo for When the Starving Return",
+        "description": "Dans un futur proche, Dove, une jeune personne fluide de genre, découvre les pouvoirs et les dangers de son Inkwo (médecine autochtone) pour défendre les vivants contre une horde de monstres affamés, testant son courage, sa résilience et son lien avec la Terre.",
+        "cast": [
+            {
+                "actor": "Paulina Alexis",
+                "doubleVFQ": "Jeanne Moreau-Vollant",
+                "role": "Dove Enfant/Dove"
+            },
+            {
+                "actor": "Tantoo Cardinal",
+                "doubleVFQ": "Marie-Josée Bastien",
+                "role": "Auntie"
+            },
+            {
+                "actor": "Art Napoleon",
+                "doubleVFQ": "René Rousseau",
+                "role": "Grenouille/Père/Boy"
+            }
+        ],
+        "extra": {
+            "projectType": "Animation/jeunesse",
+            "director": "Charles Bender",
+            "adapter": "Marie Frankland",
+            "studio": "Cinélume",
+            "theatricalRelease": "27 Octobre 2025",
+            "dvdRelease": "Inconnue",
+            "producer": "National Film Board of Canada",
+            "distributor": "National Film Board of Canada"
+        },
+        "keywords": "Dans,un,futur,proche,Dove,une,jeune,personne,fluide,de,genre,découvre,les,pouvoirs,et,les,dangers,de,son,Inkwo,médecine,autochtone,pour,défendre,les,vivants,contre,une,horde,de,monstres,affamés,testant,son,courage,sa,résilience,et,son,lien,avec,la,Terre",
+        "posterPath": "/gizlUcyaxtbZoomEEocYJ0TC5xN.jpg"
+    },
+    {
+        "movieId": 6660,
+        "translatedName": "Les quatre fabuleuses",
+        "originalName": "The Fabulous Four",
+        "description": "Des amies de longue date se rendent à Key West, en Floride, pour être demoiselles d'honneur au mariage surprise d'une amie d'université. Au cours d'une excursion rocambolesque, les liens entre soeurs se renouent, le passé refait surface et il y a suffisamment d'étincelles, de sexe et de romance pour changer la vie de chacune de manière inattendue.",
+        "cast": [
+            {
+                "actor": "Bette Midler",
+                "doubleVFQ": "Chantal Baril",
+                "role": "Marilyn"
+            },
+            {
+                "actor": "Susan Sarandon",
+                "doubleVFQ": "Claudine Chatel",
+                "role": "Lou"
+            },
+            {
+                "actor": "Sheryl Lee Ralph",
+                "doubleVFQ": "Marie-Andrée Corneille",
+                "role": "Kitty"
+            },
+            {
+                "actor": "Megan Mullally",
+                "doubleVFQ": "Viviane Pacal",
+                "role": "Alice"
+            },
+            {
+                "actor": "Abigail Dolan",
+                "doubleVFQ": "Sandrine Fagnant",
+                "role": "Sheila"
+            },
+            {
+                "actor": "Bruce Greenwood",
+                "doubleVFQ": "Daniel Picard",
+                "role": "Ted"
+            },
+            {
+                "actor": "Timothy V. Murphy",
+                "doubleVFQ": "Pierre Auger",
+                "role": "Ernie"
+            },
+            {
+                "actor": "Renika Williams-Blutcher",
+                "doubleVFQ": "Naïla Louidort",
+                "role": "Shivani"
+            },
+            {
+                "actor": "David Goren",
+                "doubleVFQ": "Nicolas Poulin",
+                "role": "Brandon"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Adrien Loreau",
+            "adapter": "Sophie Delorme",
+            "studio": "Cinélume",
+            "theatricalRelease": "26 Juillet 2024",
+            "dvdRelease": "10 Septembre 2024",
+            "producer": "Southpaw Entertainment",
+            "distributor": "Bleecker Street"
+        },
+        "keywords": "Des,amies,de,longue,date,se,rendent,à,Key,West,en,Floride,pour,être,demoiselles,d'honneur,au,mariage,surprise,d'une,amie,d'université,Au,cours,d'une,excursion,rocambolesque,les,liens,entre,soeurs,se,renouent,le,passé,refait,surface,et,il,y,a,suffisamment,d'étincelles,de,sexe,et,de,romance,pour,changer,la,vie,de,chacune,de,manière,inattendue",
+        "posterPath": "/g7kZFm81LBr2wf34MAdKexkZ0NH.jpg"
+    },
+    {
+        "movieId": 6661,
+        "translatedName": "Teenage Mutant Ninja Turtles: Chrome Alone 2 - Lost in New Jersey",
+        "originalName": "Teenage Mutant Ninja Turtles: Chrome Alone 2 - Lost in New Jersey",
+        "description": "Lorsqu'une mystérieuse entreprise de jouets exploite la nouvelle renommée des Tortues, les frères suivent les indices jusqu'au New Jersey où ils découvrent une découverte choquante.",
+        "cast": [
+            {
+                "actor": "Nicolas Cantu",
+                "doubleVFQ": "Matis Ross",
+                "role": "Leonardo"
+            },
+            {
+                "actor": "Micah Abbey",
+                "doubleVFQ": "Raphaël Bleau",
+                "role": "Donatello"
+            },
+            {
+                "actor": "Brady Noon",
+                "doubleVFQ": "Nicolas DePassillé-Scott",
+                "role": "Raphaël"
+            },
+            {
+                "actor": "Shamon Brown Jr.",
+                "doubleVFQ": "Xiao Yi Hernan",
+                "role": "Michelangelo"
+            },
+            {
+                "actor": "Zach Woods",
+                "doubleVFQ": "Adrien Bletton",
+                "role": "Chrome Dome"
+            },
+            {
+                "actor": "Beck Bennett",
+                "doubleVFQ": "Alexandre Fortin",
+                "role": "Annonceur télé"
+            },
+            {
+                "actor": "À Confirmer",
+                "doubleVFQ": "Alexandre Fortin",
+                "role": "Jouet tortue"
+            },
+            {
+                "actor": "À Confirmer",
+                "doubleVFQ": "Sacha Lapointe",
+                "role": "Garçon 1/Groupe d'enfants"
+            },
+            {
+                "actor": "À Confirmer",
+                "doubleVFQ": "Élia St-Pierre",
+                "role": "Fille 1/Groupe d'enfants"
+            },
+            {
+                "actor": "À Confirmer",
+                "doubleVFQ": "Amélia Ricar-Gauthier",
+                "role": "Fille/Groupe d'enfants"
+            }
+        ],
+        "extra": {
+            "projectType": "Animation/jeunesse",
+            "director": "Christine Bellier",
+            "adapter": "Chloë Rolland",
+            "studio": "Cinélume",
+            "theatricalRelease": "19 Décembre 2025",
+            "dvdRelease": "Inconnue",
+            "producer": "Paramount Animation et Nickelodeon Movies et Point Grey Pictures",
+            "distributor": "Paramount Pictures"
+        },
+        "keywords": "Lorsqu'une,mystérieuse,entreprise,de,jouets,exploite,la,nouvelle,renommée,des,Tortues,les,frères,suivent,les,indices,jusqu'au,New,Jersey,où,ils,découvrent,une,découverte,choquante",
+        "posterPath": "/trqwtP3SaCPUonSe360y0oIprRi.jpg"
     }
 ]
