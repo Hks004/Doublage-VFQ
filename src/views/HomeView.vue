@@ -229,7 +229,7 @@ const extractYear = (m) => {
 @media (max-width: 1200px) { .grid-posters { grid-template-columns: repeat(4, 1fr); } }
 @media (max-width: 900px) { .grid-posters { grid-template-columns: repeat(3, 1fr); } .grid-comediens { grid-template-columns: repeat(2, 1fr); } .hero-section h1 { font-size: 1.8rem; } }
 @media (max-width: 650px) {
-  .poster-img-wrapper { height: 200px; aspect-ratio: unset; }
+  .poster-img-wrapper { height: 240px; aspect-ratio: unset; }
   .home-page { padding: 20px 15px; }
   .grid-posters { grid-template-columns: repeat(2, 1fr); gap: 15px; }
   .grid-comediens { grid-template-columns: 1fr; }
