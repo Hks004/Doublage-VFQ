@@ -420831,7 +420831,7 @@
     },
     {
         "movieId": 6591,
-        "translatedName": "Joey et moi de Tyler Perry",
+        "translatedName": "Joy et moi de Tyler Perry",
         "originalName": "Tyler Perry's Finding Joy",
         "description": "Shannon Thornton interprète Joy, une styliste new-yorkaise talentueuse mais ignorée. Malheureuse dans sa carrière et en amour, Joy suit un prétendant dans le Colorado pour Noël. Après une révélation choquante et une tempête de neige, elle trouve du réconfort auprès de Ridge. Cette rencontre transforme sa vision de la vie et de l'amour, et pourrait bien changer son avenir.",
         "cast": [
@@ -421036,7 +421036,7 @@
     },
     {
         "movieId": 6594,
-        "translatedName": "The Map That Leads to You",
+        "translatedName": "La carte qui mène jusqu'à toi",
         "originalName": "The Map That Leads to You",
         "description": "Le film suit Heather, une jeune femme qui parcourt l'Europe avec des amies avant de se ranger dans une vie parfaitement planifiée. Mais une rencontre imprévue avec un certain Jack allume une flamme inattendue entre eux qui vire au tourbillon émotionnel. Alors que des secrets et des choix mettent leur relation à l'épreuve, le destin de Heather change à jamais. Adapté du roman de J.P. Monninger.",
         "cast": [
@@ -421072,7 +421072,7 @@
             "distributor": "Amazon MGM Studios"
         },
         "keywords": "Le,film,suit,Heather,une,jeune,femme,qui,parcourt,l'Europe,avec,des,amies,avant,de,se,ranger,dans,une,vie,parfaitement,planifiée,Mais,une,rencontre,imprévue,avec,un,certain,Jack,allume,une,flamme,inattendue,entre,eux,qui,vire,au,tourbillon,émotionnel,Alors,que,des,secrets,et,des,choix,mettent,leur,relation,à,l'épreuve,le,destin,de,Heather,change,à,jamais,Adapté,du,roman,de,J,P,Monninger",
-        "posterPath": "/a93b4eGaN5Uc971YgIERO3b0yeU.jpg"
+        "posterPath": "/kE22Dv1rrF8VmbY6RwfFNfk2Z8J.jpg"
     },
     {
         "movieId": 6595,
@@ -426313,5 +426313,460 @@
         },
         "keywords": "En,1995,de,retour,d'une,mission,de,maintien,de,la,paix,en,Croatie,la,capitaine,Sandra,Perron,première,femme,officier,d'infanterie,au,Canada,secoue,l'armée,en,annonçant,sa,démission,Peu,après,une,photo,troublante,la,montrant,attachée,à,un,arbre,inconsciente,en,uniforme,refait,surface,La,machine,médiatique,s'emballe,l'armée,lance,une,enquête,et,Sandra,se,retrouve,confrontée,à,ses,traumatismes,les,plus,enfouis,Refusant,de,se,considérer,comme,une,victime,elle,choisit,de,parler,dévoilant,le,prix,brutal,du,devoir,et,les,batailles,silencieuses,qu'elle,a,menées,contre,le,sexisme,contre,et,l'hostilité,dans,les,rangs",
         "posterPath": "/zfAjYiiDZW7KhoSpnbTn5GllVzg.jpg"
+    },
+    {
+        "movieId": 6665,
+        "translatedName": "Le Fils du Charpentier",
+        "originalName": "The Carpenter's Son",
+        "description": "La sombre histoire d'une famille cachée dans l'Égypte romaine. Connu seulement sous le nom de « l'Enfant », le fils est poussé au doute par un autre enfant mystérieux et se rebelle contre son gardien, le Charpentier, révélant des pouvoirs innés et un destin qui le dépasse. Alors qu'il exerce sa propre puissance, l'Enfant et sa famille deviennent la cible d'horreurs à la fois naturelles et divines.",
+        "cast": [
+            {
+                "actor": "Nicolas Cage",
+                "doubleVFQ": "Daniel Picard",
+                "role": "Le Charpentier"
+            },
+            {
+                "actor": "Noah Jupe",
+                "doubleVFQ": "Alexandre Bacon",
+                "role": "Le Garçon"
+            },
+            {
+                "actor": "FKA twigs",
+                "doubleVFQ": "Naïla Louidort",
+                "role": "La Mère"
+            },
+            {
+                "actor": "Isla Johnston",
+                "doubleVFQ": "Frédérique Dufort",
+                "role": "L'Étranger"
+            },
+            {
+                "actor": "Souheila Yacoub",
+                "doubleVFQ": "Julie Beauchemin",
+                "role": "Lilith"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Johanne Léveillé",
+            "adapter": "Nino Verrecchia",
+            "studio": "Inconnu",
+            "theatricalRelease": "14 Novembre 2025",
+            "dvdRelease": "17 Février 2026",
+            "producer": "Cinenovo et Spacemaker et Saturn Films",
+            "distributor": "Magnolia Pictures"
+        },
+        "keywords": "La,sombre,histoire,d'une,famille,cachée,dans,l'Égypte,romaine,Connu,seulement,sous,le,nom,de,l'Enfant,le,fils,est,poussé,au,doute,par,un,autre,enfant,mystérieux,et,se,rebelle,contre,son,gardien,le,Charpentier,révélant,des,pouvoirs,innés,et,un,destin,qui,le,dépasse,Alors,qu'il,exerce,sa,propre,puissance,l'Enfant,et,sa,famille,deviennent,la,cible,d'horreurs,à,la,fois,naturelles,et,divines",
+        "posterPath": "/dcFkC4nUK0zQn3r0z8psL4lkxkU.jpg"
+    },
+    {
+        "movieId": 6666,
+        "translatedName": "Afterburn : L'héritage du feu",
+        "originalName": "Afterburn",
+        "description": "Des années après qu'une éruption solaire a détruit notre civilisation, un chasseur de trésors est envoyé en Europe pour récupérer la Joconde. Mais une fois sur place, cerné par des seigneurs de guerre prêts à tout pour s'en emparer, il comprend qu'il s'agit cette fois de bien plus qu'un simple tableau...",
+        "cast": [
+            {
+                "actor": "Dave Bautista",
+                "doubleVFQ": "Frédéric Paquet",
+                "role": "Jake"
+            },
+            {
+                "actor": "Samuel L. Jackson",
+                "doubleVFQ": "Patrick Chouinard",
+                "role": "Roi Auguste"
+            },
+            {
+                "actor": "Olga Kurylenko",
+                "doubleVFQ": "Annie Girard",
+                "role": "Drea"
+            },
+            {
+                "actor": "Kristofer Hivju",
+                "doubleVFQ": "Alexandre Fortin",
+                "role": "Volkov"
+            },
+            {
+                "actor": "Daniel Bernhardt",
+                "doubleVFQ": "Frédérik Zacharek",
+                "role": "Gorynych"
+            },
+            {
+                "actor": "Kevin Eldon",
+                "doubleVFQ": "François Sasseville",
+                "role": "Père Samson"
+            },
+            {
+                "actor": "Eden Epstein",
+                "doubleVFQ": "Rachel Graton",
+                "role": "Fuentes"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Natalie Hamel-Roy",
+            "adapter": "Andréane Girard et Nadine Taillon",
+            "studio": "Inconnu",
+            "theatricalRelease": "19 Septembre 2025",
+            "dvdRelease": "6 Janvier 2026",
+            "producer": "Endurance Media et Original Film et Dogbone Entertainment",
+            "distributor": "Inaugural Entertainment et Endurance Media"
+        },
+        "keywords": "Des,années,après,qu'une,éruption,solaire,a,détruit,notre,civilisation,un,chasseur,de,trésors,est,envoyé,en,Europe,pour,récupérer,la,Joconde,Mais,une,fois,sur,place,cerné,par,des,seigneurs,de,guerre,prêts,à,tout,pour,s'en,emparer,il,comprend,qu'il,s'agit,cette,fois,de,bien,plus,qu'un,simple,tableau",
+        "posterPath": "/fSXZFZVfJmC2v0TkW711QD5o76N.jpg"
+    },
+    {
+        "movieId": 6667,
+        "translatedName": "Mercredi",
+        "originalName": "Wednesday",
+        "description": "Intelligente, sarcastique et plutôt morbide, Mercredi Addams enquête sur des mystères tordus alors qu'elle se fait de nouveaux amis à l'Académie Nevermore.",
+        "cast": [
+            {
+                "actor": "Jenna Ortega",
+                "doubleVFQ": "Romane Denis",
+                "role": "Mercredi Addams"
+            },
+            {
+                "actor": "Catherine Zeta-Jones",
+                "doubleVFQ": "Pascale Montreuil",
+                "role": "Morticia Addams"
+            },
+            {
+                "actor": "Luis Guzman",
+                "doubleVFQ": "Manuel Tadros",
+                "role": "Gomez Addams"
+            },
+            {
+                "actor": "Gwendoline Christie",
+                "doubleVFQ": "Laurence Dauphinais",
+                "role": "Larissa Weems"
+            },
+            {
+                "actor": "Christina Ricci",
+                "doubleVFQ": "Catherine Proulx-Lemay",
+                "role": "Marilyn Thornhill / Laurel Gates"
+            },
+            {
+                "actor": "Emma Myers",
+                "doubleVFQ": "Lauriane S. Thibodeau",
+                "role": "Enid Sinclair"
+            },
+            {
+                "actor": "Joy Sunday",
+                "doubleVFQ": "Sofia Blondin",
+                "role": "Bianca Barclay"
+            },
+            {
+                "actor": "Hunter Doohan",
+                "doubleVFQ": "Nicolas Poulin",
+                "role": "Tyler Galpin"
+            },
+            {
+                "actor": "Percy Hynes White",
+                "doubleVFQ": "Charles Sirard-Blouin",
+                "role": "Xavier Thorpe"
+            },
+            {
+                "actor": "Georgie Farmer",
+                "doubleVFQ": "Nicolas DePassillé-Scott",
+                "role": "Ajax Petropolus"
+            },
+            {
+                "actor": "Jamie McShane",
+                "doubleVFQ": "Martin Desgagné",
+                "role": "Donovan Galpin"
+            },
+            {
+                "actor": "Riki Lindhome",
+                "doubleVFQ": "Annie Girard",
+                "role": "Dre Valérie Kinbott"
+            },
+            {
+                "actor": "Calum Ross",
+                "doubleVFQ": "Xavier Roberge",
+                "role": "Rowan Laslow"
+            }
+        ],
+        "extra": {
+            "projectType": "Série télé",
+            "director": "Manon Arsenault et Catherine Hamann",
+            "adapter": "Andréane Girard",
+            "studio": "Difuze",
+            "theatricalRelease": "23 Novembre 2022",
+            "dvdRelease": "Inconnue",
+            "producer": "Millar Gough Ink, Tim Burton Productions, Toluca Pictures et MGM Television",
+            "distributor": "Netflix"
+        },
+        "keywords": "Intelligente,sarcastique,et,plutôt,morbide,Mercredi,Addams,enquête,sur,des,mystères,tordus,alors,qu'elle,se,fait,de,nouveaux,amis,à,l'Académie,Nevermore",
+        "posterPath": "/1UzED7WZJgzEIeVz1xiuZ1529nb.jpg"
+    },
+    {
+        "movieId": 6668,
+        "translatedName": "Jury Duty présente: Retraite corporative",
+        "originalName": "Jury Duty Presents: Company Retreat",
+        "description": "Anthony, un véritable intérimaire, est engagé chez Rockin' Grandma's Hot Sauce (une société fictive) pour son séminaire annuel, le dernier pour le PDG de la société, Doug, avant son départ à la retraite. Le fils de Doug, Dougie Jr., s'efforce de prouver ses capacités de leadership tandis qu'une équipe de capital-investissement chevronnée cherche à acquérir la société.",
+        "cast": [
+            {
+                "actor": "Jerry Hauck",
+                "doubleVFQ": "Guy Nadon",
+                "role": "Doug"
+            },
+            {
+                "actor": "Alex Bonifer",
+                "doubleVFQ": "Alexandre Daneau",
+                "role": "Dougie"
+            },
+            {
+                "actor": "Anthony Norman",
+                "doubleVFQ": "Patrick Emmanuel Abellard",
+                "role": "Anthony"
+            },
+            {
+                "actor": "Emily Pendergast",
+                "doubleVFQ": "Geneviève Bédard",
+                "role": "Amy"
+            },
+            {
+                "actor": "Wendy Braun",
+                "doubleVFQ": "Nathalie Coupal",
+                "role": "Elizabeth"
+            },
+            {
+                "actor": "Lanisa Renee Frederick",
+                "doubleVFQ": "Florence Blain Mbaye",
+                "role": "Jackie"
+            },
+            {
+                "actor": "Jim Woods",
+                "doubleVFQ": "Tristan Harvey",
+                "role": "Jimmy"
+            },
+            {
+                "actor": "Ryan Perez",
+                "doubleVFQ": "François Godin",
+                "role": "Kevin"
+            },
+            {
+                "actor": "Rob Lathan",
+                "doubleVFQ": "François Trudel",
+                "role": "Anthony Gwinn"
+            },
+            {
+                "actor": "Marc-Sully Saint-Fleur",
+                "doubleVFQ": "Lyndz Dantiste",
+                "role": "PJ"
+            }
+        ],
+        "extra": {
+            "projectType": "Série télé",
+            "director": "Adrien Loreau et François Trudel",
+            "adapter": "Amélie Prévost et Aurélie Laroche et Dave Richard",
+            "studio": "Cinélume",
+            "theatricalRelease": "7 Avril 2023",
+            "dvdRelease": "Inconnue",
+            "producer": "Amazon MGM Studios",
+            "distributor": "Amazon Prime Video"
+        },
+        "keywords": "Anthony,un,véritable,intérimaire,est,engagé,chez,Rockin',Grandma's,Hot,Sauce,une,société,fictive,pour,son,séminaire,annuel,le,dernier,pour,le,PDG,de,la,société,Doug,avant,son,départ,à,la,retraite,Le,fils,de,Doug,Dougie,Jr,s'efforce,de,prouver,ses,capacités,de,leadership,tandis,qu'une,équipe,de,capital-investissement,chevronnée,cherche,à,acquérir,la,société",
+        "posterPath": "/qT9qAHCBJNHe7q6wfYvRnx4xJMs.jpg"
+    },
+    {
+        "movieId": 6669,
+        "translatedName": "40 acres",
+        "originalName": "40 acres",
+        "description": "Dans un monde où une épidémie animale a provoqué une terrible famine et une guerre civile sanglante, Hailey Freeman, fermière rompue aux méthodes militaires, protège sa famille recomposée et sa propriété des assauts de hordes de cannibales armés. La sécurité du clan est toutefois compromise quand le fils de Hailey recueille une jeune femme blessée, qui rôdait en bordure de la ferme.",
+        "cast": [
+            {
+                "actor": "Danielle Deadwyler",
+                "doubleVFQ": "Florence Blain Mbaye",
+                "role": "Hailey"
+            },
+            {
+                "actor": "Michael Greyeyes",
+                "doubleVFQ": "René Rousseau",
+                "role": "Galen"
+            },
+            {
+                "actor": "Tyrone Benskin",
+                "doubleVFQ": "Stéphane Rivard",
+                "role": "Félix"
+            },
+            {
+                "actor": "Kataem O'Connor",
+                "doubleVFQ": "Anglesh Major",
+                "role": "Emanuel"
+            },
+            {
+                "actor": "Milcania Diaz-Rojas",
+                "doubleVFQ": "Célia Gouin-Arsenault",
+                "role": "Dawn"
+            },
+            {
+                "actor": "Leenah Robinson",
+                "doubleVFQ": "Soleil Launière",
+                "role": "Raine"
+            },
+            {
+                "actor": "Jaeda LeBlanc",
+                "doubleVFQ": "Bénédicte Bélizaire",
+                "role": "Danis"
+            },
+            {
+                "actor": "Haile Amare",
+                "doubleVFQ": "Dylane C. Henry",
+                "role": "Cookie"
+            },
+            {
+                "actor": "Elizabeth Saunders",
+                "doubleVFQ": "Dominique Quesnel",
+                "role": "Augusta"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Maël Davan-Soulas",
+            "adapter": "Nadine Taillon",
+            "studio": "Inconnu",
+            "theatricalRelease": "4 Juillet 2025",
+            "dvdRelease": "23 Septembre 2025",
+            "producer": "Hungry Eyes Film & Television",
+            "distributor": "Mongrel Media"
+        },
+        "keywords": "Dans,un,monde,où,une,épidémie,animale,a,provoqué,une,terrible,famine,et,une,guerre,civile,sanglante,Hailey,Freeman,fermière,rompue,aux,méthodes,militaires,protège,sa,famille,recomposée,et,sa,propriété,des,assauts,de,hordes,de,cannibales,armés,La,sécurité,du,clan,est,toutefois,compromise,quand,le,fils,de,Hailey,recueille,une,jeune,femme,blessée,qui,rôdait,en,bordure,de,la,ferme",
+        "posterPath": "/3zCEo21Y9wVFBgGhgDVWCyvMZ47.jpg"
+    },
+    {
+        "movieId": 6670,
+        "translatedName": "L'intrus ('25)",
+        "originalName": "Lurker",
+        "description": "Quand un vendeur d'une vingtaine d'années rencontre une pop star montante, il saisit l'occasion pour se faufiler dans le cercle des gens branchés. Mais alors que la frontière entre ami et fan s'estompe au point de devenir méconnaissable, l'accès et la proximité deviennent une question de vie ou de mort.",
+        "cast": [
+            {
+                "actor": "Havana Rose Liu",
+                "doubleVFQ": "Romane Denis",
+                "role": "Shai"
+            },
+            {
+                "actor": "Théodore Pellerin",
+                "doubleVFQ": "Alexandre Bacon",
+                "role": "Matthew"
+            },
+            {
+                "actor": "Archie Madekwe",
+                "doubleVFQ": "Rodley Pitt",
+                "role": "Olivier"
+            },
+            {
+                "actor": "Sunny Suljic",
+                "doubleVFQ": "Xavier Roberge",
+                "role": "Jamie"
+            },
+            {
+                "actor": "Daniel Zolghadri",
+                "doubleVFQ": "Matis Ross",
+                "role": "Noah"
+            },
+            {
+                "actor": "Olawale Onayemi",
+                "doubleVFQ": "Lyndz Dantiste",
+                "role": "Bowen"
+            },
+            {
+                "actor": "Jack Fox",
+                "doubleVFQ": "Anglesh Major",
+                "role": "Swett"
+            },
+            {
+                "actor": "Cam Hicks",
+                "doubleVFQ": "Karl-Antoine Suprice",
+                "role": "Sebastian"
+            },
+            {
+                "actor": "À Confirmer",
+                "doubleVFQ": "Samuël Côté",
+                "role": "Homme Jeu Video"
+            },
+            {
+                "actor": "À Confirmer",
+                "doubleVFQ": "Eve Mangin",
+                "role": "Femme/Caissière/Agente"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Adrien Loreau",
+            "adapter": "Amélie Prévost",
+            "studio": "Cinélume",
+            "theatricalRelease": "22 Août 2025",
+            "dvdRelease": "3 Mars 2026",
+            "producer": "High Frequency Entertainment et MeMo Films et Twin Pictures",
+            "distributor": "Mubi"
+        },
+        "keywords": "Quand,un,vendeur,d'une,vingtaine,d'années,rencontre,une,pop,star,montante,il,saisit,l'occasion,pour,se,faufiler,dans,le,cercle,des,gens,branchés,Mais,alors,que,la,frontière,entre,ami,et,fan,s'estompe,au,point,de,devenir,méconnaissable,l'accès,et,la,proximité,deviennent,une,question,de,vie,ou,de,mort",
+        "posterPath": "/3rbY3fjXQpt4sQLQvKD7CT6oJsS.jpg"
+    },
+    {
+        "movieId": 6671,
+        "translatedName": "Dis-le-moi tout bas",
+        "originalName": "Tell Me Softly",
+        "description": "Kamila maîtrise tous les aspects de sa vie : études, vie mondaine, image... Tout sauf le retour inattendu de ses voisins, les énigmatiques frères Di Bianco, après sept ans d'absence. Thiago lui a donné son premier baiser, et Taylor était son meilleur ami, mais leur retour trouble Kamila. Les trois jeunes pourront-ils surmonter le passé qui les hante, ou la crise éclatera-t-elle une fois de plus ?",
+        "cast": [
+            {
+                "actor": "Alícia Falcó",
+                "doubleVFQ": "Estelle Fournier",
+                "role": "Kami"
+            },
+            {
+                "actor": "Fernando Lindez",
+                "doubleVFQ": "Alexandre Bacon",
+                "role": "Thiago"
+            },
+            {
+                "actor": "Diego Vidales",
+                "doubleVFQ": "Charles Sirard-Blouin",
+                "role": "Taylor"
+            },
+            {
+                "actor": "Eve Ryan",
+                "doubleVFQ": "Romane Denis",
+                "role": "Cata"
+            },
+            {
+                "actor": "Patricia Vico",
+                "doubleVFQ": "Pascale Montreuil",
+                "role": "Anna"
+            },
+            {
+                "actor": "Celia Freijeiro",
+                "doubleVFQ": "Geneviève Beaudet",
+                "role": "Chiara"
+            },
+            {
+                "actor": "Francisco Reyes",
+                "doubleVFQ": "Alexandre Fortin",
+                "role": "Clab"
+            },
+            {
+                "actor": "Jan Buxaderas",
+                "doubleVFQ": "Matis Ross",
+                "role": "Dani"
+            },
+            {
+                "actor": "Fernando Nagore",
+                "doubleVFQ": "Nicolas DePassillé-Scott",
+                "role": "Jules"
+            }
+        ],
+        "extra": {
+            "projectType": "Film",
+            "director": "Manon Arsenault",
+            "adapter": "Nadine Taillon",
+            "studio": "Difuze",
+            "theatricalRelease": "12 Décembre 2025",
+            "dvdRelease": "Inconnue",
+            "producer": "Vaca Films et Amazon MGM Studios",
+            "distributor": "Amazon Prime Video"
+        },
+        "keywords": "Kamila,maîtrise,tous,les,aspects,de,sa,vie,études,vie,mondaine,image,Tout,sauf,le,retour,inattendu,de,ses,voisins,les,énigmatiques,frères,Di,Bianco,après,sept,ans,d'absence,Thiago,lui,a,donné,son,premier,baiser,et,Taylor,était,son,meilleur,ami,mais,leur,retour,trouble,Kamila,Les,trois,jeunes,pourront-ils,surmonter,le,passé,qui,les,hante,ou,la,crise,éclatera-t-elle,une,fois,de,plus",
+        "posterPath": "/6NugNYN0Q2VUwYh3JwtVYPQFfHX.jpg"
     }
 ]
