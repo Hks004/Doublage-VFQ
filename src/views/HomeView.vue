@@ -64,7 +64,7 @@ const extractYear = (m) => {
 
       <section class="section">
         <div class="section-header">
-          <h2 class="section-title">DERNIERS AJOUTS - 20/07/2026 - (7 fiches)</h2>
+          <h2 class="section-title">DERNIERS AJOUTS - 22/07/2026 - (10 fiches)</h2>
           <router-link to="/catalogue" class="btn-voir-tout">VOIR TOUT</router-link>
         </div>
         
