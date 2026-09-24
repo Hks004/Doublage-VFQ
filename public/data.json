@@ -428408,5 +428408,60 @@
         },
         "keywords": null,
         "posterPath": "/z1c4Dd9TjjleIM9p52S9MznKaUB.jpg"
+    },
+    {
+        "movieId": 6695,
+        "translatedName": "Jack Ryan: La guerre fantôme",
+        "originalName": "Jack Ryan: Ghost War",
+        "description": "Jack Ryan retrouve des agents de la CIA pour naviguer dans un réseau perfide de trahisons face à un ennemi qui connaît chacun de leurs mouvements.",
+        "cast": [
+            {
+                "actor": "John Krasinski",
+                "doubleVFQ": "Frédérik Zacharek",
+                "role": "Jack Ryan"
+            },
+            {
+                "actor": "Wendell Pierce",
+                "doubleVFQ": "Benoît Rousseau",
+                "role": "James Greer"
+            },
+            {
+                "actor": "Sienna Miller",
+                "doubleVFQ": "Catherine Proulx-Lemay",
+                "role": "Emma Marlow"
+            },
+            {
+                "actor": "Michael Kelly",
+                "doubleVFQ": "Pierre Auger",
+                "role": "Mike November"
+            },
+            {
+                "actor": "Max Beesley",
+                "doubleVFQ": "Patrice Dubois",
+                "role": "Liam Crown"
+            },
+            {
+                "actor": "Jj Feild",
+                "doubleVFQ": "Adrien Bletton",
+                "role": "Andrew Spear"
+            },
+            {
+                "actor": "Betty Gabriel",
+                "doubleVFQ": "Florence Blain Mbaye",
+                "role": "Elizabeth Wright"
+            }
+        ],
+        "extra": {
+            "studio": "Difuze",
+            "adapter": "Alexis Joubert",
+            "director": "Julie Burroughs et Aline Pinsonneault",
+            "producer": "Paramount Pictures et Sunday Night Productions",
+            "dvdRelease": "Inconnue",
+            "distributor": "Amazon Prime Video",
+            "projectType": "Film",
+            "theatricalRelease": "20 Mai 2026"
+        },
+        "keywords": "jack,ryan,retrouve,des,agents,de,la,cia,pour,naviguer,dans,un,réseau,perfide,de,trahisons,face,à,un,ennemi,qui,connaît,chacun,de,leurs,mouvements",
+        "posterPath": "/zR4RAnv4s6zpXhiqepdonAw4oF3.jpg"
     }
 ]

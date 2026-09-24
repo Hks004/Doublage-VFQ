@@ -1,6 +1,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted, provide, computed } from 'vue'
 import { useRouter } from 'vue-router'
+import { getAppData } from './api.js'
 
 const allData = ref([])
 const isLoaded = ref(false)
@@ -27,8 +28,8 @@ onMounted(async () => {
   window.addEventListener('click', handleClickOutside)
   
   try {
-    const response = await fetch(`${import.meta.env.BASE_URL}data.json?t=${Date.now()}`)
-    allData.value = await response.json()
+    // Chargement intelligent via notre cache local & version check
+    allData.value = await getAppData()
     isLoaded.value = true
   } catch (error) {
     console.error("Erreur:", error)
